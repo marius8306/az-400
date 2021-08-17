@@ -36,9 +36,9 @@ namespace FoodApi {
             //Use MI to get DB Con Str
             var azureServiceTokenProvider = new AzureServiceTokenProvider();
             var kv = new KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback));
-            string dbconstring = (kv.GetSecretAsync("https://foodvault-021.vault.azure.net/", "DBConnection").Result).Value;
+            string dbconstring = (kv.GetSecretAsync("https://foodvault-025.vault.azure.net/", "SQLConnection").Result).Value;
 
-            //EF
+            //EF 
             //We dont need the conStrLite anymore - just there for comparison
             //var conStrLite = Configuration["ConnectionStrings:SQLiteDBConnection"];
             services.AddEntityFrameworkSqlite ().AddDbContext<FoodDBContext> (options => options.UseSqlite (dbconstring));
