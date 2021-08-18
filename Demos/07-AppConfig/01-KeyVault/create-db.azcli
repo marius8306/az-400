@@ -7,10 +7,11 @@ user=azlabadmin
 pwd=Lab@dmin1234
 vault=foodvault-$rnd
 
+az group create -n $grp -l $loc
+
 az sql server create -l $loc -g $grp -n $server -u $user -p $pwd
 
-az sql db create -g $grp -s $server -n $db \
-    -e GeneralPurpose -f Gen5 --min-capacity 0.5 -c 2 --compute-model Serverless --auto-pause-delay 720
+az sql db create -g $grp -s $server -n $db --service-objective S0
 
 cs=$(az sql db show-connection-string -n $db --server $server -c ado.net)
 echo $cs
