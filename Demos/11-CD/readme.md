@@ -27,6 +27,12 @@
 
 ## Additional Labs & Walkthroughs
 
-[Deploy applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/deploy-applications-with-azure-devops/)
+[Learning Path: Deploy applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/deploy-applications-with-azure-devops/)
 
-[Using secrets from Azure Key Vault in a pipeline](https://azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
+[Run functional tests in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/run-functional-tests-azure-pipelines/)
+
+[Run nonfunctional tests in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/run-non-functional-tests-azure-pipelines/)
+
+[Web Application Load and Performance Testing](https://azuredevopslabs.com/labs/azuredevops/load/)
+
+[Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)
