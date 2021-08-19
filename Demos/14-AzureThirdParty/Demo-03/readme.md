@@ -1,3 +1,4 @@
 # Use Terrafrom in Pipeline
 
-- Execute `create-tf-storage.azcli`
+- Upload `create-app-service.tf` to an azure devops repo in the same project
+- Import `terraform-pipeline.json` pipeline and execute it

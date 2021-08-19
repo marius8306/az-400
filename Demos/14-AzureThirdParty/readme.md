@@ -1,5 +1,13 @@
 # 04 Third Party and Open Source Tool integration with Azure
 
+## Demos
+
+- Use Ansible to Provision in Azure
+- Terraform Interactive Use
+- Use Terraform in pipeline
+
+## Readings
+
 [Infrastructure Automation](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/infrastructure-automation)
 
 [Chef](https://www.chef.io/home/)
