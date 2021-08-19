@@ -1,4 +1,4 @@
-# Continers
+# Hosting on Web App for Container / Azure Container Instances
 
 ## Web App for Container
 

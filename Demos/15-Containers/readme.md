@@ -5,7 +5,7 @@
 - Show Image creation .NET Core / Angular
 - Create and use Azure Container Registry
 - Execute Build Task on Azure Container Registry
-- Use Image on Web App for Container / Azure Contrainer Instances
+- Hosting on Web App for Container / Azure Container Instances
 
 ## Readings
 
