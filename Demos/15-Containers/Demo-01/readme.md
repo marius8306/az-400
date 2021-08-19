@@ -10,5 +10,5 @@
 
 [FoodApp Sample App](https://github.com/ARambazamba/FoodApp) - A .NET Core Api and Angular UI implemented as Cloud Native App with step by step Installation Scripts
 
-- Build .NET 5 Api
-- Build Angular FrontEnd
+- Build .NET 5 Api -> FoodApi
+- Build Angular FrontEnd -> FoodUI

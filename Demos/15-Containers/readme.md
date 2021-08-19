@@ -1,5 +1,14 @@
 # Containers
 
+## Demos
+
+- Show Image creation .NET Core / Angular
+- Create and use Azure Container Registry
+- Execute Build Task on Azure Container Registry
+- Use Image on Web App for Container / Azure Contrainer Instances
+
+## Readings
+
 [Docker CLI Reference](https://docs.docker.com/engine/reference/commandline/cli/)
 
 [Docker Build Commands](https://docs.docker.com/engine/reference/builder/)
