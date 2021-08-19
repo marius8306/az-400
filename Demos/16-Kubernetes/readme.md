@@ -1,5 +1,13 @@
 # Kubernetes
 
+## Demos
+
+- Create and use a cluster on Azure Kubernetes Services 
+- Build an image and deploy it to a Kubernetes cluster using Azure DevOps pipelines
+- Helm Basics
+
+## Readings
+
 [Azure Kubernetes Services Docs](https://docs.microsoft.com/en-us/azure/aks/)
 
 [Configure a Pod to use a Config Map](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
