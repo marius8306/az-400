@@ -34,3 +34,7 @@
 [Secure DevOps Kit for Azure](https://azsk.azurewebsites.net/)
 
 [Secure DevOps Kit (AzSK) CICD Extensions for Azure](https://marketplace.visualstudio.com/items?itemName=azsdktm.AzSDK-task)
+
+## Additional Labs & Walkthroughs
+
+[Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
