@@ -17,7 +17,7 @@ Post to Teams using an [Incoming Webhook](https://docs.microsoft.com/en-us/micro
 
 To register an Incoming Webhook in Teams use this [guide: Create Incoming Webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook). 
 
-You can use `/cards/test-card.ps1` to test your Webhook. Save the Url of your Webhook to a new file `webhookuri.txt`:
+You can use `/cards/test-card.ps1` to test your Webhook. Save the Url of your Webhook to a new file `/cards/webhookuri.txt`:
 
 ```Powershell
 $json = Get-Content -Path .\card.json
