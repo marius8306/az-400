@@ -11,22 +11,28 @@
 
     ![outcome](_images/outcome.png)
 
-## Snippets
+## Snippets to connect to Microsoft Teams
 
-Incoming Webhook:
+Post to Teams using an [Incoming Webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) and [Adaptive Cards](https://docs.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards):
 
-```
-https://integrationsonline.webhook.office.com/webhookb2/0de6d64d-350d-4352-93f6-084123d68b48@d92b247e-90e0-4469-a129-6a32866c0d0a/IncomingWebhook/2086a60b83074528848ce30f3b09cbaa/25853297-1418-4fc4-96ec-22f8bc83a64b
-```
+To register an Incoming Webhook in Teams use this [guide: Create Incoming Webhook](https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook). 
 
-https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-using?tabs=cURL#example-connector-message
+You can use `/cards/test-card.ps1` to test your Webhook. Save the Url of your Webhook to a new file `webhookuri.txt`:
 
-Test Webhook:
-
-```
-$json='<CARD BODY HERE>'
-
-Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body $json   -Uri  <URL of the webhook you copied> 
+```Powershell
+$json = Get-Content -Path .\card.json
+$uri =  Get-Content -Path .\webhookuri.txt
+Invoke-RestMethod -Method post -ContentType 'Application/Json' -Body $json -Uri $uri
 ```
 
-https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/azure-function?view=azure-devops
+To get back from the Azure Function to your Azure DevOps Organisation use this pattern documented [here](
+https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/utility/azure-function?view=azure-devops)
+
+```Json
+POST  {planUri}/{projectId}/_apis/distributedtask/hubs/{hubName}/plans/{planId}/events?api-version=2.0-preview.1 HTTP/1.1
+content-type: application/json
+
+{
+   "name": "TaskCompleted", "taskId": "taskInstanceId", "jobId": "jobId", "result": "succeeded" 
+}
+```
