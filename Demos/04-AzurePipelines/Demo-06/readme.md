@@ -6,6 +6,9 @@
 
 ## Demos
 
+- Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
+- Test your Agents with a variety of workloads
+
 ### Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
 
 - [Self hosted Docker Linux Agent](./linux-agent)
