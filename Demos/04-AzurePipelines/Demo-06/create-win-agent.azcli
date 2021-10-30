@@ -6,7 +6,7 @@ grp=az400-devopsagents
 loc=westeurope
 img='arambazamba/devopsagentwindows'
 agent=aci-win-agent-$RANDOM
-pool=aci-pool
+pool=win-selfhosted
 
 az group create -n $grp -l $loc
 

@@ -2,7 +2,7 @@ trigger:
     - main
 
 pool:
-    name: aci-pool
+    name: linux-selfhosted
 
 steps:
     - script: echo Hello, world!

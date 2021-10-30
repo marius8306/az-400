@@ -1,7 +1,7 @@
 name: dependency jobs
 
 pool:
-  name: aci-pool
+  name: linux-selfhosted
 
 stages:
 - stage: experiment

@@ -5,7 +5,7 @@ trigger:
       - master
 
 pool:
-    name: aci-pool
+    name: linux-selfhosted
 
 variables:
   buildConfiguration: "Release"

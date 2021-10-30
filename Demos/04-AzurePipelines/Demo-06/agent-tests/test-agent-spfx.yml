@@ -6,7 +6,7 @@ trigger:
       - master
 
 pool:
-    name: aci-pool      
+    name: linux-selfhosted      
 
 stages:
   - stage: Build

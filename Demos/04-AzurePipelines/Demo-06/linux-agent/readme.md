@@ -50,7 +50,7 @@ docker push arambazamba/devopsagentlinux
 ```
 ## Host Agent on Azure Container Instances
 
-Create a custom agent pool - ie: `aci-pool`
+Create a custom agent pool - ie: `selfhosted`
 
 ![aci-pool](../_images/aci-pool.png)
 
