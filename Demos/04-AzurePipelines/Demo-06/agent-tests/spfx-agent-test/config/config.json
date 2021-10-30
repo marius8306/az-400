@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-agent-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxAgentTest/SpFxAgentTestWebPart.js",
+          "manifest": "./src/webparts/spFxAgentTest/SpFxAgentTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxAgentTestWebPartStrings": "lib/webparts/spFxAgentTest/loc/{locale}.js"
+  }
+}
