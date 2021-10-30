@@ -6,7 +6,7 @@
 
 ## Demos
 
-Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
+### Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
 
 - [Self hosted Docker Linux Agent](./linux-agent)
 - [Self hosted Docker Windows Agent](./win-agent)
@@ -22,9 +22,9 @@ pool:
     name: selfhosted
 ```
 
-## Test your Agents with a variety of workloads
+### Test your Agents with a variety of workloads
 
-### Functional Test
+#### Functional Test
 
 Simple Agent Test `./agent-tests/test-agent.yml`:
 
@@ -45,7 +45,7 @@ steps:
       displayName: "Run a multi-line script"
 ```
 
-### .NET Core Test
+#### .NET Core Test
 
 Test a .NET 5 Build from [https://github.com/arambazamba/simple-mvc](https://github.com/arambazamba/simple-mvc) using `./agent-tests/test-agent-net.yml`
 
@@ -62,7 +62,7 @@ pool:
     name: selfhosted
 ```
 
-### Microsoft 365 Stack Test
+#### Microsoft 365 Stack Test
 
 This sample is using `./agent-tests/test-agent-spfx.yml` [https://github.com/arambazamba/spfx-devops](https://github.com/arambazamba/spfx-devops/blob/main/az-pipelines/test-agent-spfx.yml)
 
