@@ -39,7 +39,6 @@ COPY ./start.sh .
 COPY installers /installers
 
 RUN /installers/netcore.sh
-RUN /installers/node.sh
 
 RUN chmod +x start.sh
 

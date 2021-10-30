@@ -32,14 +32,12 @@ To add capabilities you have to add setup scripts to `/installers/` and update t
 COPY installers /installers
 
 RUN /installers/netcore.sh
-RUN /installers/node.sh
-RUN /installers/m365-cli.sh
 ```
 
 Build Linux Agent:
 
 ```bash
-docker build -t aciagentlinux .
+docker build -t devopsagentlinux .
 ```
 
 >Note: Local testing can be done using: `docker run -it --rm aciagentlinux -e AZP_URL=$org -e AZP_TOKEN=$token -e AZP_POOL=$pool`
@@ -47,8 +45,8 @@ docker build -t aciagentlinux .
 Upload Linux Agent:
 
 ```
-docker tag aciagentlinux arambazamba/aciagentlinux
-docker push arambazamba/aciagentlinux
+docker tag devopsagentlinux arambazamba/devopsagentlinux
+docker push arambazamba/devopsagentlinux
 ```
 ## Use Container
 
