@@ -1,7 +1,5 @@
 # Implement & Manage Build Infrastructure
 
-> Note: Originally this is Module 05
-
 ## Demos
 
 -   .Net 5 Build Designer
