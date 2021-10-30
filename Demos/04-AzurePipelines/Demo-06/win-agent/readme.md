@@ -20,11 +20,11 @@ docker push $dockerhubuser/$agent
 
 Create a custom agent pool - ie: `aci-pool`
 
-![aci-pool](_images/aci-pool.png)
+![aci-pool](../_images/aci-pool.png)
 
 Get Azure DevOps token:
 
-![devops-token](_images/devops-token.png)
+![devops-token](../_images/devops-token.png)
 
 Export token to env or add it to script:
 
@@ -32,7 +32,7 @@ Export token to env or add it to script:
 export token=ae3ypool6mvpf7624it7j4smbveyrics4rnpu...
 ```
 
-Execute `creat-linux-agent-on-ci.azcli` to upload agent and create Container Instance. Update Environment Vars:
+Execute `create-win-agent.azcli` to upload agent and create Container Instance. Update Environment Vars:
 
 ```bash
 az container create -g $grp -l $loc -n $agent --image $img --cpu 1 --memory 1 --dns-name-label $agent --port 80 --environment-variables 'AZP_URL'=$org 'AZP_TOKEN'=$token 'AZP_AGENT_NAME'=$agent 'AZP_POOL'=$pool
@@ -40,4 +40,4 @@ az container create -g $grp -l $loc -n $agent --image $img --cpu 1 --memory 1 --
 
 Check if agent was registered in your DevOps orga:
 
-![agent-up](_images/agent-up.png)
+![agent-up](../_images/agent-up.png)
