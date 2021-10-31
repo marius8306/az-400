@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-agent-test-client-side-solution",
-    "id": "0c529327-c086-4988-89a7-15b5b7b2d899",
+    "name": "spfx-devops-client-side-solution",
+    "id": "ac022a6c-cbf3-490e-b77a-035808e87c42",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
@@ -15,6 +15,6 @@
     }
   },
   "paths": {
-    "zippedPackage": "solution/spfx-agent-test.sppkg"
+    "zippedPackage": "solution/spfx-devops.sppkg"
   }
 }

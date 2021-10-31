@@ -7,19 +7,19 @@ import {
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 
-import * as strings from 'SpFxAgentTestWebPartStrings';
-import SpFxAgentTest from './components/SpFxAgentTest';
-import { ISpFxAgentTestProps } from './components/ISpFxAgentTestProps';
+import * as strings from 'SpFxDevOpsWpWebPartStrings';
+import SpFxDevOpsWp from './components/SpFxDevOpsWp';
+import { ISpFxDevOpsWpProps } from './components/ISpFxDevOpsWpProps';
 
-export interface ISpFxAgentTestWebPartProps {
+export interface ISpFxDevOpsWpWebPartProps {
   description: string;
 }
 
-export default class SpFxAgentTestWebPart extends BaseClientSideWebPart<ISpFxAgentTestWebPartProps> {
+export default class SpFxDevOpsWpWebPart extends BaseClientSideWebPart<ISpFxDevOpsWpWebPartProps> {
 
   public render(): void {
-    const element: React.ReactElement<ISpFxAgentTestProps> = React.createElement(
-      SpFxAgentTest,
+    const element: React.ReactElement<ISpFxDevOpsWpProps> = React.createElement(
+      SpFxDevOpsWp,
       {
         description: this.properties.description
       }

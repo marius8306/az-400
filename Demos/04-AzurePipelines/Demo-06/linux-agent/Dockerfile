@@ -38,6 +38,13 @@ RUN if [ "$TARGETARCH" = "amd64" ]; then \
 COPY ./start.sh .
 COPY installers /installers
 
+RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+RUN sudo apt-get install nodejs
+RUN node -v 
+RUN npm install -g gulp typescript
+RUN npm install -g @pnp/cli-microsoft365
+
+# RUN /installers/nodetools.sh
 RUN /installers/netcore.sh
 
 RUN chmod +x start.sh

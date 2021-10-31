@@ -1,12 +1,12 @@
 import * as React from 'react';
-import styles from './SpFxAgentTest.module.scss';
-import { ISpFxAgentTestProps } from './ISpFxAgentTestProps';
+import styles from './SpFxDevOpsWp.module.scss';
+import { ISpFxDevOpsWpProps } from './ISpFxDevOpsWpProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 
-export default class SpFxAgentTest extends React.Component<ISpFxAgentTestProps, {}> {
-  public render(): React.ReactElement<ISpFxAgentTestProps> {
+export default class SpFxDevOpsWp extends React.Component<ISpFxDevOpsWpProps, {}> {
+  public render(): React.ReactElement<ISpFxDevOpsWpProps> {
     return (
-      <div className={ styles.spFxAgentTest }>
+      <div className={ styles.spFxDevOpsWp }>
         <div className={ styles.container }>
           <div className={ styles.row }>
             <div className={ styles.column }>

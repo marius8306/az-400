@@ -34,20 +34,16 @@ COPY installers /installers
 RUN /installers/netcore.sh
 ```
 
-Build Linux Agent:
+Build & Upload Linux Agent:
 
 ```bash
 docker build -t devopsagentlinux .
+docker tag devopsagentlinux arambazamba/devopsagentlinux
+docker push arambazamba/devopsagentlinux
 ```
 
 >Note: Local testing can be done using: `docker run -it --rm aciagentlinux -e AZP_URL=$org -e AZP_TOKEN=$token -e AZP_POOL=$pool`
 
-Upload Linux Agent:
-
-```
-docker tag devopsagentlinux arambazamba/devopsagentlinux
-docker push arambazamba/devopsagentlinux
-```
 ## Host Agent on Azure Container Instances
 
 Create a custom agent pool - ie: `selfhosted`

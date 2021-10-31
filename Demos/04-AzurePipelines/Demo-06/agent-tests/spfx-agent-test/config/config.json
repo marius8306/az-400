@@ -2,17 +2,17 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "sp-fx-agent-test-web-part": {
+    "sp-fx-dev-ops-wp-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/spFxAgentTest/SpFxAgentTestWebPart.js",
-          "manifest": "./src/webparts/spFxAgentTest/SpFxAgentTestWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/spFxDevOpsWp/SpFxDevOpsWpWebPart.js",
+          "manifest": "./src/webparts/spFxDevOpsWp/SpFxDevOpsWpWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SpFxAgentTestWebPartStrings": "lib/webparts/spFxAgentTest/loc/{locale}.js"
+    "SpFxDevOpsWpWebPartStrings": "lib/webparts/spFxDevOpsWp/loc/{locale}.js"
   }
 }
