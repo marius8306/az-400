@@ -12,11 +12,7 @@
 
 [GitHub Action Docs](https://docs.github.com/en/actions)
 
-[GitHub Script](https://github.com/actions/github-script)
-
-[octokit/rest.js](https://octokit.github.io/rest.js/v18)
-
-[GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+[Events that trigger workflows](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows)
 
 ## Additional Labs & Walkthroughs
 
