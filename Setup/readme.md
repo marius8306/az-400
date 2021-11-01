@@ -16,7 +16,7 @@ pwd=Lab@dmin1233
 
 az group create -n $grp -l $loc
 
-az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:21h1-pro:19043.1288.2110060459 --size Standard_E2s_v3
+az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:21h1-pro:19043.1288.2110060459 --size Standard_E2s_v3 --public-ip-sku Standard
 ```
 
 > Note: If the image needs to be updated or is not available anymore you can list windows 10 images using: `az vm image list -f "Windows-10" --all -o table`
