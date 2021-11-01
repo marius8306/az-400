@@ -1,6 +1,48 @@
-# Forking Workflow
+# Git-Flow & Forking Workflow
 
-## Getting Updates for Class Demos
+## Git-Flow
+
+[Git-Flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+
+> Note: Require GIT 2.24.0+ - Check with `git --version` and seperate package installation on Linux `sudo apt-get install -y git-flow`
+
+Initialize repo for gitflow:
+
+```
+git flow init
+```
+
+Start a new feature:
+
+```
+git flow feature start MYFEATURE
+```
+
+Finish feature:
+
+```
+git flow feature finish MYFEATURE
+```
+
+Publish a feature:
+
+```
+git flow feature publish  MYFEATURE
+```
+
+Start a release:
+
+```
+git flow release start RELEASE
+```
+
+Finish a release:
+
+```
+git flow release finish  RELEASE
+```
+
+## Forking Workflow - Getting Updates for Class Demos
 
 ![forking-wf](_images/forking-workflow.jpg)
 
@@ -42,4 +84,26 @@ Fetch from Upstream:
  git fetch upstream
  git merge upstream/master
  git push origin master
+```
+
+## Fostering Internal Open Source
+
+Forking is done using the Fork Button
+
+![fork](../_images/fork.jpg)
+
+Add the repo your forked from as "upstream":
+
+```
+git remote add upstream {upstream_url}
+```
+
+Make changes an create a Pull Request
+
+Sync your fork to latest:
+
+```
+git fetch upstream master
+git rebase upstream/master
+git push origin
 ```

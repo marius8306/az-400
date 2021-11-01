@@ -204,3 +204,21 @@ git checkout 2.0.1
 ## Configure ignored files
 
 To Configure ignored files add a `.gitignore` file to the root of your project. A valid `.gitignore` file can be generated at https://www.gitignore.io/
+
+
+## Working with Submodules
+
+Add a Submodule:
+
+```
+git submodule add https://github.com/ARambazamba/FoodApp FoodApp
+git commit -m foodapp-submodule
+```
+
+Updating a Submodule to it's latest commit:
+
+```
+git submodule update --remote --merge
+```
+
+> Note: I use submodules to include samples in classes that are used in different classes or to shorten / avoid path problems in devops
