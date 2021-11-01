@@ -4,24 +4,7 @@
 
 We are using this image and vm size because it supports nested virtualization used for Hyper-V and WSL2 Support
 
-Script `create-lab-vm.azcli`:
-
-```bash
-rnd=$RANDOM
-loc=westeurope
-grp=az-lab
-vmname=labvm-$rnd
-user=azlabadmin
-pwd=Lab@dmin1233
-
-az group create -n $grp -l $loc
-
-az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:21h1-pro:19043.1288.2110060459 --size Standard_E2s_v3 --public-ip-sku Standard
-```
-
-> Note: If the image needs to be updated or is not available anymore you can list windows 10 images using: `az vm image list -f "Windows-10" --all -o table`
-
-> Note: You could also execute `create-lab-vm.sh` or run the following remote script in Cloud Shell
+Execute `create-lab-vm.sh` or run the following remote script in Cloud Shell
 
 ```bash
 curl https://raw.githubusercontent.com/ARambazamba/AZ-400/main/Setup/create-lab-vm.sh | bash
@@ -68,7 +51,7 @@ To install Software run the script `setup-az-400.ps1` from an elevated PowerShel
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force;
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ARambazamba/AZ-400-v2/master/Setup/setup-az-400.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/az-400/main/Setup/setup-az-400.ps1'))
 ```
 
 > Note: This script will run for approx 20 min. No need to wait! In the meantime you can continue to fork and clone my repo as described in the next section.
@@ -86,7 +69,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@yourdomain.com"
 ```
 
-Go to `https://github.com/ARambazamba/az-204` and fork the repo
+Go to `https://github.com/ARambazamba/az-400` and fork the repo
 
 ![forking-wf](_images/fork.jpg)
 
@@ -97,10 +80,10 @@ The forking-workflow allows you to commit your changes to your fork of the repo 
 Clone Class Repo:
 
 ```bash
-git clone https://github.com/Student01/AZ-400-v2
+git clone https://github.com/<GITHUB-USERNAME>/AZ-400
 ```
 
-> Note: If you have forked the class repo clone your own fork, otherwise use https://github.com/ARambazamba/AZ-400-v2
+> Note: If you have forked the class repo clone your own fork, otherwise use https://github.com/ARambazamba/AZ-400
 
 ---
 

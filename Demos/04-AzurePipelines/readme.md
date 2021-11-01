@@ -47,12 +47,12 @@ az extension add --name azure-devops
 
 ## Additional Labs & Walkthroughs
 
-[Lab -Integrate Your GitHub Projects With Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
-
-[Lab - Deploying a Multi-Container Application](https://azuredevopslabs.com/labs/vstsextend/kubernetes/)
-
 [Create a build pipeline with Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/create-a-build-pipeline/)
 
 [Build a web app with Blazor WebAssembly and Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/build-blazor-webassembly-visual-studio-code/)
 
 [Host your own build agent in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/host-build-agent/)
+
+[Azure DevOps Labs - Integrate Your GitHub Projects With Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
+
+[Azure DevOps Labs - Deploying a Multi-Container Application](https://azuredevopslabs.com/labs/vstsextend/kubernetes/)
