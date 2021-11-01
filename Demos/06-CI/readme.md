@@ -35,8 +35,6 @@
 
 [Learning Path - Build applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/)
 
-[Deploy from GitHub to Azure App Service using Jenkins](https://docs.microsoft.com/de-de/azure/developer/jenkins/deploy-from-github-to-azure-app-service)
+[Azure DevOps Labs - Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
 
-[Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
-
-[Integrating Jenkins CI with Azure Pipelines ](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
+[Azure DevOps Labs - Integrating Jenkins CI with Azure Pipelines ](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
