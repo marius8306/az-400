@@ -1,10 +1,55 @@
-# Deploy Simple Api
+# YAML Pipelines
 
-- Create hosting AppService by executing `create-app-service.azcli`
-- Create a `rg-mod04` Service Connection
-- Import a pipeline from json
-- Check using the following URL: `https://simpleapi-$RND.azurewebsites.net/api/simple`
+Add `net-core-api-build.yml` to `simple-api` repo
 
-![create-sc](_images/create-sc.jpg)
+```yml
+name: "build-simple-net-core-api-yaml"
+trigger:
+  branches:
+    include:
+      - master
 
-![deploy-app-service](_images/deploy-app-service.jpg)
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  buildConfiguration: "Release"
+
+stages:
+  - stage: "Build"
+    jobs:
+      - job: "Build"
+        displayName: "Build Api"
+
+        steps:
+          - task: UseDotNet@2
+            displayName: "Install .NET 5 SDK"
+            inputs:
+              packageType: "sdk"
+              version: "5.x"
+
+          - task: DotNetCoreCLI@2
+            displayName: Build
+            inputs:
+              command: build
+              projects: "**/*.csproj"
+              arguments: "--configuration $(buildConfiguration)"
+
+          - task: DotNetCoreCLI@2
+            inputs:
+              command: "publish"
+              publishWebProjects: true
+              arguments: "--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)"
+
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: "$(Build.ArtifactStagingDirectory)"
+              ArtifactName: "drop"
+              publishLocation: "Container"
+```
+
+Import the Pipeline
+
+![add-pipeline](_images/add-pipeline.jpg)
+
+![select-pipeline](_images/select-pipeline.jpg)

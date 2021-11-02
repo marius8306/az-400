@@ -1,83 +1,26 @@
-# Implement & Use a Self-hosted Docker Agent
+# Configure a self hosted agent on an Azure Windows VM
 
-## Demos
+[Self-hosted Windows agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops)
 
-- Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
-- Test your Agents with a variety of workloads
+## Quick Guide
 
-### Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
-
-- [Self hosted Docker Linux Agent](./linux-agent)
-- [Self hosted Docker Windows Agent](./win-agent)
-
-[Run a self-hosted agent in Docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops)
-
-[Authenticate with Azure Container Registry from Azure Container Instances](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-auth-aci)
-
-[Microsoft Hosted Agents Software Inventory](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml) gives you a starting point for software installed on Azure-hosted-agents
-
-![inventory](_images/inventory.png)
-
-To use your custom agent you could use:
-
-```yaml
-pool:
-    name: selfhosted
-```
-
-### Test your Agents with a variety of workloads
-
-#### Functional Test
-
-Simple Agent Test `./agent-tests/test-agent.yml`:
-
-```yaml
-trigger:
-    - main
-
-pool:
-    name: selfhosted
-
-steps:
-    - script: echo Hello, world!
-      displayName: "Run a one-line script"
-
-    - script: |
-          echo Add other tasks to build, test, and deploy your project.
-          echo See https://aka.ms/yaml
-      displayName: "Run a multi-line script"
-```
-
-#### .NET Core Test
-
-Test a .NET 5 Build from [https://github.com/arambazamba/simple-mvc](https://github.com/arambazamba/simple-mvc) using `./agent-tests/test-agent-net.yml`
-
-To reference you custom pool in yaml use [pool](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser#choosing-a-pool-and-agent-in-your-pipeline)
-
-```
-name: test-agent-net
-trigger:
-  branches:
-    include:
-      - master
-
-pool:
-    name: selfhosted
-```
-
-#### Microsoft 365 Stack Test
-
-This sample is using `./agent-tests/test-agent-spfx.yml` [https://github.com/arambazamba/spfx-devops](https://github.com/arambazamba/spfx-devops/blob/main/az-pipelines/test-agent-spfx.yml)
-
-Notice the line `RUN /installers/node.sh` in `dockerfile`. It installes Node 14.x, [Gulp](https://gulpjs.com/) that is used to build a [SharePoint Framework Webpart](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) and the [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/) that can be used to publish this WebPart later on. By preinstalling this software you can remove the steps from your `*.yaml` and speed up your DevOps.
+-   Execute `create-agent-vm.azcli` to install the vm in Cloud Shell using
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt install nodejs
-
-echo "NODE Version:" && node --version
-echo "NPM Version:" && npm --version
-
-sudo npm i -g gulp
-sudo npm i -g @pnp/cli-microsoft365
+curl https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePipelines/Demo-05/create-agent-vm.azcli | bash
 ```
+
+> Note: If you want to change the vm size use: `az vm list-sizes --location westeurope -o table`
+
+-   Execute `install-sw-devops-agent-vm.ps1` from inside the vm you created in the prev step to install Build Agent on VM
+
+> Note: Instead of copying you can also execute `install-sw-devops-agent-vm.ps1` from GitHub in an elevated PowerShell prompt:
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ARambazamba/AZ-400/main/Demos/04-AzurePipelines/Demo-05/setup-devops-agent-vm.ps1'))
+```
+
+-   Complete the agent config:
+
+![config-agent.jpg](_images/config-agent.jpg)
