@@ -2,6 +2,7 @@
 
 ## Demos
 
+-   Pipeline Syntax
 -   .Net 5 Build Designer
 -   .Net 5 Bulid Yaml
 -   .Net 5 Deployment to App Service
