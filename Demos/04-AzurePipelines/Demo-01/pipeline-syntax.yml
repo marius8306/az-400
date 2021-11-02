@@ -16,16 +16,16 @@ variables:
   name: somevar
   value: somevarvalue
 
-# pool:
-#     name: linux-selfhosted  
+pool:
+    name: linux-selfhosted  
 
 stages:
   - stage: stageA
 
     jobs:
       - job: stageAJobA
-        pool:
-          vmImage: "ubuntu-latest"
+        # pool:
+        #   vmImage: "ubuntu-latest"
 
         steps:
           - task: Bash@3
@@ -36,8 +36,8 @@ stages:
 
       - job: stageAJobB
         dependsOn: []
-        pool:
-          vmImage: "ubuntu-latest"
+        # pool:
+        #   vmImage: "ubuntu-latest"
 
         steps:
           - task: Bash@3
@@ -46,8 +46,8 @@ stages:
               script: echo 'Executing JobB'
   
   - stage: stageB
-    pool:
-      vmImage: "ubuntu-latest"
+    # pool:
+    #   vmImage: "ubuntu-latest"
 
     jobs:
       - job: stageBJobA
