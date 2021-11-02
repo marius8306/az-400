@@ -4,8 +4,9 @@ trigger:
       - master
 
 variables:
-  name: fbtoken
-  value: "<REPLACE-TOKEN>"
+  provision: true
+  name: somevar
+  value: somevarvalue
 
 stages:
   - stage: default
