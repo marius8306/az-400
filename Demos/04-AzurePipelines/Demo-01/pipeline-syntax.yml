@@ -9,19 +9,15 @@ variables:
   value: somevarvalue
 
 stages:
-  - stage: default
+  - stage: stageA
 
     jobs:
-      - job: Job
+      - job: JobA
         pool:
           vmImage: "ubuntu-latest"
 
         steps:
-          - task: NodeTool@0
+          - task: Bash@3
             inputs:
-              versionSpec: "14.x"
-            displayName: "Install Node.js"
-
-          - script: |
-              npm install -g firebase-tools
-            displayName: "install firebase cli"
+              targetType: 'inline'
+              script: echo 'Executing JobA'
