@@ -29,6 +29,8 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
 
 - [Azure DevOps Account](https://dev.azure.com/)
 
+  Due to ressource restrictions you might have to [apply for free agent build minutes grants](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR63mUWPlq7NEsFZhkyH8jChUMlM3QzdDMFZOMkVBWU5BWFM3SDI2QlRBSC4u)
+
 - Azure Subscription:
 
   Please do not use a Production Account for Training
