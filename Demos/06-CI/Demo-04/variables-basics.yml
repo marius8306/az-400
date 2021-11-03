@@ -10,6 +10,7 @@ variables:
 
 jobs:
  - job: vars
+   displayName: Variable Basics
    steps:
 
     - script: |
@@ -17,7 +18,7 @@ jobs:
         echo $(one)
       displayName: First variable pass
     
-    - bash: echo '##vso[task.setvariable variable=one]secondValue'
+    - bash: echo '##vso[task.setvariable variable=one]updatedValue'
       displayName: new value one
     
     # compare syntax variants
@@ -26,7 +27,7 @@ jobs:
       displayName: Template Expression
 
     - script: |
-        echo $(one) # outputs secondValue
+        echo $(one) # outputs updatedValue
       displayName: Macro Syntax
 
     - script: |
