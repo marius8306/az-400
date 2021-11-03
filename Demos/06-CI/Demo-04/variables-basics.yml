@@ -4,24 +4,29 @@ variables:
   - name: one
     value: initialValue
 
-steps:
-  - script: |
-      echo ${{ variables.one }} # outputs initialValue
-      echo $(one)
-    displayName: First variable pass
-  
-  - bash: echo '##vso[task.setvariable variable=one]secondValue'
-    displayName: Set new variable value
-  
-  # compare syntax variants
-  - script: 
-    displayName: Template Expression
-      echo ${{ variables.one }} # outputs initialValue
+# stages skipped
 
-  - script: 
-    displayName: Macro Syntax
-      echo $(one) # outputs secondValue
+jobs:
+ - job: vars
+   steps:
 
-  - script: 
-    displayName: Runtime Syntax
-      echo ($[variables.one])	 # outputs secondValue
+    - script: |
+        echo ${{ variables.one }} # outputs initialValue
+        echo $(one)
+      displayName: First variable pass
+    
+    - bash: echo '##vso[task.setvariable variable=one]secondValue'
+      displayName: new value one
+    
+    # compare syntax variants
+    - script: 
+      displayName: Template Expression
+        echo ${{ variables.one }} # outputs initialValue
+
+    - script: 
+      displayName: Macro Syntax
+        echo $(one) # outputs secondValue
+
+    - script: 
+      displayName: Runtime Syntax
+        echo ($[variables.one])	 # outputs secondValue
