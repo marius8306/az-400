@@ -1,5 +1,7 @@
 name: variables basics
 
+trigger: none
+
 variables:
   - name: one
     value: initialValue
