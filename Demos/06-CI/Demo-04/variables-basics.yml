@@ -21,7 +21,7 @@ jobs:
       displayName: new value one
       
     - bash: echo '##vso[task.setvariable variable=two]secondValue'
-      displayName: new value one
+      displayName: new value two
     
     # compare syntax variants
     - script: |
