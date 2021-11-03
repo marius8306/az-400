@@ -19,15 +19,20 @@ jobs:
     
     - bash: echo '##vso[task.setvariable variable=one]secondValue'
       displayName: new value one
+      
+    - bash: echo '##vso[task.setvariable variable=two]secondValue'
+      displayName: new value one
     
     # compare syntax variants
-    - script: 
-      displayName: Template Expression
+    - script: |
         echo ${{ variables.one }} # outputs initialValue
+        echo ${{ variables.two }} # outputs initialValue
+      displayName: Template Expression
 
-    - script: 
-      displayName: Macro Syntax
+    - script: |
         echo $(one) # outputs secondValue
+        echo $(two) # outputs secondValue
+      displayName: Macro Syntax
 
     - script: |
         runvarone: $[variables.one]
