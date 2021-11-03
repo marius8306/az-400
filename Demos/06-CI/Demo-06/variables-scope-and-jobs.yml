@@ -28,6 +28,7 @@ stages:
     steps: 
     - bash: |
         echo "deployed code to:" $(appName)
+      displayName: Check Value
 
 - stage: Production
   displayName: Production
@@ -41,3 +42,4 @@ stages:
       steps:
       - bash: |
           echo "the staging app is:" $(stagingApp)
+        displayName: Check Value
