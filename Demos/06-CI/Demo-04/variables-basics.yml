@@ -24,4 +24,4 @@ steps:
 
   - script: 
     displayName: Runtime Syntax
-      echo $[variables.one]	 # outputs secondValue
+      echo ($[variables.one])	 # outputs secondValue
