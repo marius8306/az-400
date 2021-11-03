@@ -30,10 +30,10 @@ stages:
         echo "deployed code to:" $(appName)
 
 - stage: Production
-  displayName: Procuction
+  displayName: Production
   
   jobs:
-    - job: job_procuction_eval
+    - job: ProdJob
       displayName: productionEval
       variables:
         stagingApp: $[ stageDependencies.Staging.IaC.outputs['mockProvisioning.outval'] ]
