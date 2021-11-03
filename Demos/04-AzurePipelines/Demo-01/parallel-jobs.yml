@@ -1,5 +1,7 @@
 name: parallel jobs
 
+trigger: none
+
 pool:
   name: linux-selfhosted
 

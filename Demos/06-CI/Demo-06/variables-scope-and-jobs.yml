@@ -3,33 +3,41 @@ name: passing vars between jobs and stages
 trigger: none
 
 stages:
-- stage: stageStaging
+
+- stage: Staging
   displayName: Staging
+
   jobs: 
-  - job: job_deploy_infrastructure
+
+  - job: IaC
     displayName: Deploy Some Infrastructure
+    
     steps:
     - bash: |
         as=appService$RANDOM
         echo "##vso[task.setvariable variable=outval;isOutput=true;]$as"
         echo "provisioned appservice $as"
       name: mockProvisioning
-  - job: job_deploy_code
+
+  - job: UseIaCVar
     displayName: Deploy Some Code
-    dependsOn: ['job_deploy_infrastructure']
+    dependsOn: ['IaC']
     variables: 
-      appName: $[ dependencies.job_deploy_infrastructure.outputs['mockProvisioning.outval'] ]
+      appName: $[ dependencies.IaC.outputs['mockProvisioning.outval'] ]
+    
     steps: 
     - bash: |
         echo "deployed code to:" $(appName)
 
-- stage: stageProduction
+- stage: Production
   displayName: Procuction
+  
   jobs:
     - job: job_procuction_eval
       displayName: productionEval
       variables:
-        stagingApp: $[ stageDependencies.stageStaging.job_deploy_infrastructure.outputs['mockProvisioning.outval'] ]
+        stagingApp: $[ stageDependencies.Staging.IaC.outputs['mockProvisioning.outval'] ]
+     
       steps:
       - bash: |
           echo "the staging app is:" $(stagingApp)

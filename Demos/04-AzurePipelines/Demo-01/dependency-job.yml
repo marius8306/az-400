@@ -1,5 +1,7 @@
 name: dependency jobs
 
+trigger: none
+
 pool:
   name: linux-selfhosted
 

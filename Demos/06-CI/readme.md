@@ -7,7 +7,7 @@
 - SPFx Build
 - Using Variables
 - Multistage with Template Yaml
-- Passing Variables to Jobs & Stages
+- Variable Scopes in multistage pipelines
 
 ## Readings
 

@@ -1,5 +1,6 @@
-trigger:
-    - main
+name: hello-world-test
+
+trigger: none
 
 pool:
     name: linux-selfhosted

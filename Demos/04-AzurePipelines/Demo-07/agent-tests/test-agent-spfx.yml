@@ -1,9 +1,6 @@
 name: test-agent-spfx
 
-trigger:
-  branches:
-    include:
-      - master
+trigger: none
 
 pool:
     name: linux-selfhosted      
