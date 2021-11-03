@@ -1,5 +1,7 @@
 name: passing vars between jobs and stages
 
+trigger: none
+
 stages:
 - stage: stageStaging
   displayName: Staging
