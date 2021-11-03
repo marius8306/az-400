@@ -29,6 +29,7 @@ jobs:
       displayName: Macro Syntax
         echo $(one) # outputs secondValue
 
-    - script: 
+    - script: |
+        runvarone: $[variables.one]
+        echo $(runvarone)	 
       displayName: Runtime Syntax
-        echo ($[variables.one])	 # outputs secondValue
