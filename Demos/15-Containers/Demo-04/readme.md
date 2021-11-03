@@ -1,11 +1,3 @@
-# Hosting on Web App for Container / Azure Container Instances
+# Build Docker Image in Pipeline
 
-## Web App for Container
-
-Execute `create-webapp-container.azcli`
-
-## Containers
-
-[Azure Container Instances](https://docs.microsoft.com/en-us/azure/container-instances/)
-
-Execute `create-container-instance.azcli`
+Explain `api-docker.yml` from [food-app](https://github.com/arambazamba/food-app)
