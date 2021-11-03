@@ -1,14 +1,27 @@
-rnd=025
-grp=az400-m07-$rnd
+rnd=dev
+grp=az204-m07-secure-solutions-$rnd
 loc=westeurope
 vault=foodvault-$rnd
 
 az group create -n $grp -l $loc
 
-az keyvault create -l $loc -n $vault -g $grp --sku standard 
+az keyvault create -l $loc -n $vault -g $grp --sku Standard
 
-az keyvault secret set --vault-name $vault --name "DBConnection" --value "Data Source=./food.db"
+az keyvault secret set --vault-name $vault --name "conSQLite" --value "Data Source=./food.db"
 
-az keyvault secret set --vault-name $vault --name "kv-var" --value "original-kv-val"
+az keyvault secret set --vault-name $vault --name "DBUser" --value "azlabadmin"
 
-az keyvault secret show --name "DBConnection" --vault-name $vault
+az keyvault secret set --vault-name $vault --name "DBPassword" --value "Lab@dmin1234"
+
+az keyvault secret show --name "DBUser" --vault-name $vault
+
+user=$(az keyvault secret show --name "DBUser" --vault-name $vault --query value)
+
+az keyvault secret list --vault-name $vault
+
+# Delete KV and purge it to permanently delete it
+# Do not execute
+
+az keyvault delete -n $vault
+
+az keyvault purge -n $vault

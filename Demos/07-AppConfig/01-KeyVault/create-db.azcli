@@ -1,20 +1,26 @@
-rnd=025
-grp=az400-m07-$rnd
+rnd=dev
+grp=az204-m07-secure-solutions-$rnd
 loc=westeurope
 server=foodserver$rnd
 db=foodb$rnd
-user=azlabadmin
-pwd=Lab@dmin1234
 vault=foodvault-$rnd
 
 az group create -n $grp -l $loc
 
+user=$(az keyvault secret show --name "DBUser" --vault-name $vault --query value -o tsv)
+pwd=$(az keyvault secret show --name "DBPassword" --vault-name $vault --query value -o tsv)
+
 az sql server create -l $loc -g $grp -n $server -u $user -p $pwd
 
-az sql db create -g $grp -s $server -n $db --service-objective S0
+az sql db create -g $grp -s $server -n $db --service-objective Basic
+
+az sql server firewall-rule create -g $grp -s $server -n azure-rule --start-ip-address 0.0.0.0 --end-ip-address 0.0.0.0
+
+ip=$(curl ipinfo.io/ip)
+
+az sql server firewall-rule create -g $grp -s $server -n current-client-ip --start-ip-address $ip --end-ip-address $ip
 
 cs=$(az sql db show-connection-string -n $db --server $server -c ado.net)
 echo $cs
 
-az keyvault secret set --vault-name $vault --name "SQLConnection" --value "Server=tcp:$server.database.windows.net,1433;Database=$db;User ID=$user;Password='$pwd'';Encrypt=true;Connection Timeout=30;"
-
+az keyvault secret set --vault-name $vault --name "conSQLServer" --value "Server=tcp:$server.database.windows.net,1433;Database=$db;User ID=$user;Password='$pwd';Encrypt=true;Connection Timeout=30;"
