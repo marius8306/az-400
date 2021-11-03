@@ -31,11 +31,6 @@ jobs:
     - script: |
         echo $(one) # outputs updatedValue
       displayName: Macro Syntax
-
-    - script: |
-        echo 'evaluations was true'	 
-      condition: eq($[variables.eval], true)
-      displayName: Runtime Syntax
       
     - script: |
         echo $(M365User)
