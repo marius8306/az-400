@@ -17,7 +17,11 @@ variables:
   value: somevarvalue
 
 pool:
-    name: linux-selfhosted  
+  vmImage: "ubuntu-latest"
+
+# use a selfhosted pool
+# pool:
+#     name: linux-selfhosted
 
 stages:
   - stage: stageA
