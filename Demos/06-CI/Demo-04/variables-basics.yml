@@ -3,9 +3,11 @@ name: variables basics
 trigger: none
 
 variables:
-  - name: one
-    value: initialValue
-  - group: M365Vars
+  eval: true
+  name: one
+  value: initialValue
+  group: M365Vars
+
 # stages skipped
 
 jobs:
@@ -29,11 +31,6 @@ jobs:
     - script: |
         echo $(one) # outputs updatedValue
       displayName: Macro Syntax
-
-    - script: |
-        runvarone: $[variables.one]
-        echo $(runvarone)	 
-      displayName: Runtime Syntax
       
     - script: |
         echo $(M365User)
