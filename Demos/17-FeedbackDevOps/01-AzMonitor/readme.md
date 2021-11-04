@@ -24,5 +24,3 @@
 [Azure Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/overview)
 
 [Create, view, and manage metric alerts using Azure Monitor](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-monitor/platform/alerts-metric.md)
-
-[Send Data to Azure Monitor using Audit Streaming](https://docs.microsoft.com/en-us/azure/devops/organizations/audit/auditing-streaming?view=azure-devops)

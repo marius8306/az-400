@@ -4,4 +4,7 @@
 
 ## Demos
 
-- Execute `api-build-deploy.yml` from [FoodApp]https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-deploy.yml)
+- Explain Deployment Groups
+- Execute `create-api-webapp.azcli`
+- Execute `api-build-deploy.yml` from [FoodApp](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-deploy.yml)
+

@@ -1,4 +1,4 @@
-rnd=900
+rnd=staging
 grp=az400-foodapp
 loc=westeurope
 appPlan=foodplan-$rnd
