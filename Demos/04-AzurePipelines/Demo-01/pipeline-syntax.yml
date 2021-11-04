@@ -6,7 +6,6 @@ trigger:
   # paths:
   #   include:
   #     - SomePath
-          
 
 variables:
   # exectJob used in condition is defined as pipeline var
@@ -15,6 +14,8 @@ variables:
   # two line syntax
   name: somevar
   value: somevarvalue
+  # enable debugging
+  System.Debug: true
 
 pool:
     name: linux-selfhosted  
