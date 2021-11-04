@@ -1,4 +1,4 @@
 # Templates & Task Groups
 
 - Use Taskgroup with SPFx WP
-- Show pipeline `ms-template.yml` from [FoodApp](https://github.com/ARambazamba/FoodApp)
+- Show pipeline `api-template.yml` from [FoodApp](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-template.yml)

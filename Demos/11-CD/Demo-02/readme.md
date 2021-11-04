@@ -1,4 +1,10 @@
-# Introduction to Environments
+# Introduction to Environments and Deployments Jobs
+
+[Environments](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops)
+
+[Deployment Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
+
+## Environment Intro
 
 The advantages of using environments include the following.
 
