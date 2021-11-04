@@ -6,8 +6,9 @@
 - Deployment Tasks, Environments
 - Using Key Vault in Deployments
 - Task Groups, Templates
-- Implement Testing
-- Deployment Job with Azure Function
+- Deployment with Testing
+- File Transforms
+- Azure Function DevOps
 
 ## Readings
 
@@ -15,7 +16,6 @@
 
 [Azure Pipelines YAML Template Samples](https://github.com/microsoft/azure-pipelines-yaml/tree/master/templates)
 
-[File transforms and variable substitution reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/transforms-variable-substitution?view=azure-devops&tabs=Classic)
 
 ## Additional Labs & Walkthroughs
 

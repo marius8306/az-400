@@ -1,6 +1,7 @@
-# Azure Function App
+# File Transforms
 
-- Implement Typescript based DoDouble Function
-- Multistage Pipeline with build, provision and deployment
+[File transforms and variable substitution reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/transforms-variable-substitution?view=azure-devops&tabs=Classic)
 
-Souce Code located at [https://github.com/arambazamba/az-funct-app-devops](https://github.com/arambazamba/az-funct-app-devops)
+## Demos
+
+- Show pipeline `ng-build-deploy-app-service.yml` from [FoodApp](https://github.com/arambazamba/food-app/blob/master/az-pipelines/ng-build-deploy-app-service.yml)
