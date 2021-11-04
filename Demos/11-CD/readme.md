@@ -7,7 +7,7 @@
 - Using Key Vault in Deployments
 - Task Groups, Templates
 - Deployment with Testing
-- File Transforms
+- File Transforms (optional)
 - Azure Function DevOps (optional)
 - Health Inspection (optional)
 
