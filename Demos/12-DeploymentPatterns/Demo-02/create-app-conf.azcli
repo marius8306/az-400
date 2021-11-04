@@ -1,0 +1,18 @@
+grp=az400-m12-deploymentpatterns
+loc=westeurope
+cfg=foodconfig-$RANDOM
+feature=OrderFeature
+
+# create appconfig and add a value
+
+az group create -n $grp -l $loc
+
+az appconfig create -g $grp -n $cfg -l $loc --sku free
+
+az appconfig kv set -n foodconfig-$rnd --key "Settings:Title" --value "Fancy Food App" -y
+
+az appconfig feature set -n $cfg --feature $feature --label Production -y
+
+az appconfig feature set -n $cfg --feature $feature --label Staging -y
+
+az appconfig feature enable -n $cfg --feature $feature --label Staging -y
