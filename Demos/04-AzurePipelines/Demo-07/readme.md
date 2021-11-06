@@ -50,7 +50,7 @@ steps:
 
 #### .NET Core Test
 
-Test a .NET 5 Build from [https://github.com/arambazamba/simple-mvc](https://github.com/arambazamba/simple-mvc) using `./agent-tests/test-agent-net.yml`
+Test a .NET 5 Build from [MVC-DevOps](https://github.com/arambazamba/mvc-devops) using `./agent-tests/test-agent-net.yml`
 
 To reference you custom pool in yaml use [pool](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser#choosing-a-pool-and-agent-in-your-pipeline)
 
