@@ -8,6 +8,9 @@ variables:
   value: initialValue
   group: M365Vars
 
+pool:
+  vmImage: "ubuntu-20.04"  
+
 # stages skipped
 
 jobs:
