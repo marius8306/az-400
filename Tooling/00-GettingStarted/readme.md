@@ -1,5 +1,7 @@
 # Getting Started
 
+To avoid problems with saved credentials I recommend using an alternate browser.
+
 - [Register a Github User Account](https://github.com/) or use your existing account
 - [Activate your Azure Pass](../05-AzurePass) to create a subscription with free grants
 
