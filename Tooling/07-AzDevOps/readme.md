@@ -2,15 +2,21 @@
 
 Go to [http://dev.azure.com](http://dev.azure.com) to register your Azure DevOps Organisation
 
-Due to a ressource shortage explained [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&tabs=ms-hosted) you have to fill out a form to [get the grant](https://aka.ms/azpipelines-parallelism-request) for free agent build minutes.
+![register-1](_images/register-1.png)
+
+Create your DevOps organisation. This will also the name of your first project:
+
+![register-orga](_images/register-orga.png)
+
+Due to a ressource shortage explained [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&tabs=ms-hosted) you have to request free build minutes for Microsoft hosted agents
 
 ![shortage](_images/shortage.png)
 
-Please provide the name of the DevOps Organisation that should be enabled.
+Fill out the [request](https://aka.ms/azpipelines-parallelism-request) to get the grant for free agent build minutes:
 
-![devops](_images/devops.png)
+![free-grants](_images/free-grants.png)
 
-You can check the grant at: `https://dev.azure.com/DEVOPS-ORGA/_settings/buildqueue?_a=concurrentJobs`
+You can check the grant at: `https://dev.azure.com/<DEVOPS-ORGA>/_settings/buildqueue?_a=concurrentJobs`
 
 ![free-jobs](_images/free-jobs.png)
 

@@ -1,7 +1,7 @@
 # Getting Started
 
-- [Register a Github User Account](https://github.com/)
-- [Activate your Azure Pass](../05-AzurePass)
+- [Register a Github User Account](https://github.com/) or use your existing account
+- [Activate your Azure Pass](../05-AzurePass) to create a subscription with free grants
 
     >Note: Azure Passes can only be used once per e-mail account. Please do not use Azure AD Accounts with existing subscriptions. If you are not sure, please register a new [Outlook.com](https://outlook.live.com/owa/) account.
 
