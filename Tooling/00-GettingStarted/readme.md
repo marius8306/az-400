@@ -1,7 +1,7 @@
 # Getting Started
 
-- [Github User Account](https://github.com/)
-- [Register your Azure Pass](../05-AzurePass)
+- [Register a Github User Account](https://github.com/)
+- [Activate your Azure Pass](../05-AzurePass)
 
     >Note: Azure Passes can only be used once per e-mail account. Please do not use Azure AD Accounts with existing subscriptions. If you are not sure, please register a new [Outlook.com](https://outlook.live.com/owa/) account.
 
