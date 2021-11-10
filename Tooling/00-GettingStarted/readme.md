@@ -2,7 +2,7 @@
 
 - [Github User Account](https://github.com/)
 - [Register Account to be used for Azure Pass - optional](https://outlook.live.com/owa/)
-- [Register your Azure Pass with](../05-AzurePass)
+- [Register your Azure Pass](../05-AzurePass)
 - [Azure DevOps Account](../07-AzDevOps)
 - [Configure CloudShell for first use in your Azure Tenant](../04-CLI/#configure-cloud-shell)
 - [Setup your Lab Machine & install required Software using Script - optional](../../Setup)
