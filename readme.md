@@ -2,6 +2,7 @@
 
 Companion Material for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx) containing:
 
+- [Getting Started](./Tooling/00-GettingStarted)
 - [Requirements / Tooling](./Tooling)
   - [Register Azure DevOps Organisation](./Tooling/07-AzDevOps)
   - [Register Azure Pass](./Tooling/05-AzurePass)
@@ -28,10 +29,6 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
 - [Github User Account](https://github.com/)
 
 - [Azure DevOps Account](https://dev.azure.com/)
-
-  > Note: Due to [ressource restrictions](https://docs.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops&tabs=ms-hosted) you might have to [apply free grant of parallel jobs for Microsoft hosted agents.](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR63mUWPlq7NEsFZhkyH8jChUMlM3QzdDMFZOMkVBWU5BWFM3SDI2QlRBSC4u)
-
-  ![restrictions](_images/restrictions.jpg)
 
 - Azure Subscription:
 
