@@ -1,9 +1,11 @@
 # Getting Started
 
 - [Github User Account](https://github.com/)
-- [Register Account to be used for Azure Pass - optional](https://outlook.live.com/owa/)
 - [Register your Azure Pass](../05-AzurePass)
-- [Azure DevOps Account](../07-AzDevOps)
+
+    >Note: Azure Passes can only be used once per e-mail account. Please do not use Azure AD Accounts with existing subscriptions. If you are not sure, please register a new [Outlook.com](https://outlook.live.com/owa/) account.
+
+- [Register an Azure DevOps Organisation](../07-AzDevOps)
 - [Configure CloudShell for first use in your Azure Tenant](../04-CLI/#configure-cloud-shell)
 - [Setup your Lab Machine & install required Software using Script - optional](../../Setup)
   
