@@ -26,6 +26,6 @@
 
 [Run nonfunctional tests in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/run-non-functional-tests-azure-pipelines/)
 
-[Web Application Load and Performance Testing](https://azuredevopslabs.com/labs/azuredevops/load/)
+[Azure DevOps Labs - Web Application Load and Performance Testing](https://azuredevopslabs.com/labs/azuredevops/load/)
 
-[Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)
+[Azure DevOps Labs - Automating Selenium Tests in Azure Pipelines](https://www.azuredevopslabs.com/labs/vstsextend/Selenium/)

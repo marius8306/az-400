@@ -30,6 +30,6 @@
 
 [Create a multistage pipeline by using Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/create-multi-stage-pipeline/)
 
-[Controlling Deployments using Release Gates](https://azuredevopslabs.com/labs/vstsextend/releasegates/)
+[Azure DevOps Labs - Controlling Deployments using Release Gates](https://azuredevopslabs.com/labs/vstsextend/releasegates/)
 
-[Using secrets from Azure Key Vault in a pipeline](https://azuredevopslabs.com/labs/vstsextend/azurekeyvault/)
+[Azure DevOps Labs - Using secrets from Azure Key Vault in a pipeline](https://azuredevopslabs.com/labs/vstsextend/azurekeyvault/)

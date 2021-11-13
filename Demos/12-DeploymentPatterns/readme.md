@@ -22,5 +22,5 @@
 
 [Manage release cadence in Azure Pipelines by using deployment patterns - Blue / Green Deployment](https://docs.microsoft.com/en-us/learn/modules/manage-release-cadence/)
 
-[Feature Flag Management with LaunchDarkly and AzureDevOps](https://azuredevopslabs.com/labs/vstsextend/launchdarkly/)
+[Azure DevOps Labs - Feature Flag Management with LaunchDarkly and AzureDevOps](https://azuredevopslabs.com/labs/vstsextend/launchdarkly/)
 
