@@ -6,6 +6,8 @@
 
 [Github Project Management](https://github.com/features/project-management/)
 
+[Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+
 # Additional Labs & Walkthroughs
 
 [Choose an Agile approach to software development](https://docs.microsoft.com/en-us/learn/modules/choose-an-agile-approach/)
