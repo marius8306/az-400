@@ -1,14 +1,13 @@
 rnd=dev
-grp=az204-m07-secure-solutions-$rnd
+grp=az204-m11-db-deployment-$rnd
 loc=westeurope
-server=foodserver$rnd
-db=foodb$rnd
-vault=foodvault-$rnd
+server=sql-$rnd
+db=demodb$rnd
 
 az group create -n $grp -l $loc
 
-user=$(az keyvault secret show --name "DBUser" --vault-name $vault --query value -o tsv)
-pwd=$(az keyvault secret show --name "DBPassword" --vault-name $vault --query value -o tsv)
+user=sqladmin
+pwd=Pa$$w0rd1234!
 
 az sql server create -l $loc -g $grp -n $server -u $user -p $pwd
 
