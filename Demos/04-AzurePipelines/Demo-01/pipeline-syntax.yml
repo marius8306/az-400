@@ -17,12 +17,12 @@ variables:
   # enable debugging
   System.Debug: true
 
-pool:
-  vmImage: "ubuntu-latest"
+# pool:
+#   vmImage: "ubuntu-latest"
 
 # use a selfhosted pool
-# pool:
-#     name: linux-selfhosted
+pool:
+    name: linux-selfhosted
 
 stages:
   - stage: stageA
