@@ -3,11 +3,11 @@
 To avoid problems with saved credentials I recommend using an alternate browser.
 
 - [Register a Github User Account](https://github.com/) or use your existing account
+- [Register an Azure DevOps Organisation](../07-AzDevOps)
 - [Activate your Azure Pass](../05-AzurePass) to create a subscription with free grants
 
-    >Note: Azure Passes can only be used once per e-mail account. Please do not use Azure AD Accounts with existing subscriptions. If you are not sure, please register a new [Outlook.com](https://outlook.live.com/owa/) account.
+    >Note: Azure Passes can only be used once per e-mail account. Please do not use Azure AD Accounts with existing subscriptions. If you are not sure, please register a new [Outlook.com](https://outlook.live.com/owa/) account. Use the same e-mail account as you have used for the Azure DevOps Organisation
 
-- [Register an Azure DevOps Organisation](../07-AzDevOps)
 - [Configure CloudShell for first use in your Azure Tenant](../04-CLI/#configure-cloud-shell)
 - [Setup your Lab Machine & install required Software using Script - optional](../../Setup)
   
