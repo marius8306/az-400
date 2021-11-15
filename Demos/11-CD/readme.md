@@ -6,7 +6,7 @@
 - Deployment Tasks, Environments, Passing Vars between Stages
 - Using Key Vault in Deployments
 - Task Groups, Templates
-- Deployment with Testing
+- Deployment with Testing (optional)
 - File Transforms (optional)
 - Azure Function DevOps (optional)
 - Health Inspection (optional)
