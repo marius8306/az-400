@@ -3,14 +3,13 @@ grp=az204-m11-db-deployment-$rnd
 loc=westeurope
 server=sql-$rnd
 db=demodb$rnd
-acct=restoreacct$rnd
+acct=deploymentbackup$rnd
 container=dbbackup
 dacpac=DemoDB-v-1.dacpac
-
-az group create -n $grp -l $loc
-
 user=sqladmin
 pwd=Pa$$w0rd1234!
+
+az group create -n $grp -l $loc
 
 az sql server create -l $loc -g $grp -n $server -u $user -p $pwd
 
