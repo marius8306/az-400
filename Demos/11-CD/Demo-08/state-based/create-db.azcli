@@ -5,7 +5,7 @@ server=sql-$RANDOM
 db=demodb$rnd
 acct=deploymentbackup$rnd
 container=dbbackup
-dacpac=DemoDB-v-1.dacpac
+dacpac=DemoDB.bacpac
 user=sqladmin
 pwd=Pa$$w0rd1234!
 
