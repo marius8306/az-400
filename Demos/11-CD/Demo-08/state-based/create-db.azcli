@@ -1,9 +1,9 @@
 rnd=prod
-grp=az204-m11-db-deployment-$rnd
+grp=az204-m11-dbdevops-$rnd
 loc=westeurope
 server=sql-$RANDOM
 db=demodb$rnd
-acct=deploymentbackup$rnd
+acct=dbdevops$rnd
 container=dbbackup
 dacpac=DemoDB.bacpac
 user=sqladmin
