@@ -1,20 +1,17 @@
 grp=az400-m12-deploymentpatterns
 loc=westeurope
-appPlanTest=deploymentpatternsFree-$RANDOM
-appPlanTest=deploymentpatternsB1-$RANDOM
+appPlanDevTest=deploymentpatternsFree-$RANDOM
 appPlanProd=deploymentpatternsP1V2-$RANDOM
 web=foodapp-$rnd
 
 az group create -n $grp -l $loc
 
-az appservice plan create -n $appPlanDev -g $grp --sku FREE
-
-az appservice plan create -n $appPlanTest -g $grp --sku B1
+az appservice plan create -n $appPlanDevTest -g $grp --sku FREE
 
 az appservice plan create -n $appPlanProd -g $grp --sku P1V2
 
-az webapp create -n $web-dev -g $grp -p $appPlanDev
+az webapp create -n $web-dev -g $grp -p $appPlanDevTest
 
-az webapp create -n $web-test -g $grp -p $appPlanTest
+az webapp create -n $web-test -g $grp -p $appPlanDevTest
 
-az webapp create -n $web-prod -g $grp -p $appPlanProd
+az webapp create -n $web-proda -g $grp -p $appPlanProd

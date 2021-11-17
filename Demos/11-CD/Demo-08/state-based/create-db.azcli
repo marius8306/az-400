@@ -1,7 +1,7 @@
-rnd=$RANDOM
+rnd=prod
 grp=az204-m11-db-deployment-$rnd
 loc=westeurope
-server=sql-$rnd
+server=sql-$RANDOM
 db=demodb$rnd
 acct=deploymentbackup$rnd
 container=dbbackup
@@ -27,6 +27,6 @@ key=$(az storage account keys list -n $acct --query "[0].[value][0]" -o tsv)
 
 az storage container create -n $container --account-key $key --account-name $acct
 
-az storage blob upload --container-name $container --file $bak --name $dacpac --account-key $key --account-name $acct
+az storage blob upload --container-name $container --file ./$dacpac --name $dacpac --account-key $key --account-name $acct
 
 az sql db import -s $server -n $db -g $grp --admin-user $user --admin-password $pwd --storage-key $key --storage-key-type StorageAccessKey --storage-uri "https://$acct.blob.core.windows.net/$container/$dacpac"
