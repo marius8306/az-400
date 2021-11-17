@@ -2,6 +2,7 @@
 
 ## Demos
 
+- Service Connections and its relation to App Registrations
 - .NET Core Release using Designer
 - Deployment with Stages inkluding Gates & Approvals
 - Introduction to Environments
