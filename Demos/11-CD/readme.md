@@ -11,13 +11,6 @@
 - Azure Function DevOps (optional)
 - Health Inspection (optional)
 
-## Readings
-
-[YAML Templates](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops)
-
-[Azure Pipelines YAML Template Samples](https://github.com/microsoft/azure-pipelines-yaml/tree/master/templates)
-
-
 ## Additional Labs & Walkthroughs
 
 [Learning Path: Deploy applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/deploy-applications-with-azure-devops/)
