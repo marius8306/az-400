@@ -26,19 +26,17 @@ namespace FoodApi {
         public void ConfigureServices (IServiceCollection services) {
 
             //Config
-            var cfgBuilder = new ConfigurationBuilder ()
-                .SetBasePath (env.ContentRootPath)
-                .AddJsonFile ("appsettings.json");
-            var configuration = cfgBuilder.Build ();
-            services.Configure<AppConfig> (configuration);
-            services.AddSingleton (typeof (IConfigurationRoot), configuration);
+            services.AddSingleton < IConfiguration > (Configuration); 
 
             //Use MI to get DB Con Str
-            var azureServiceTokenProvider = new AzureServiceTokenProvider();
-            var kv = new KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback));
-            string dbconstring = (kv.GetSecretAsync("https://foodvault-025.vault.azure.net/", "SQLConnection").Result).Value;
+            string kv = env.IsDevelopment() ? Configuration["Azure:KevVault"] : Configuration["AppSettings:KevVault"];
+            Console.WriteLine($"KeyVault: {kv}");
 
-            //EF 
+            var azureServiceTokenProvider = new AzureServiceTokenProvider();
+            var kvClient = new KeyVaultClient(new KeyVaultClient.AuthenticationCallback(azureServiceTokenProvider.KeyVaultTokenCallback));            
+            string dbconstring = (kvClient.GetSecretAsync($"https://{kv}", "conSQLite").Result).Value;
+
+            //EF
             //We dont need the conStrLite anymore - just there for comparison
             //var conStrLite = Configuration["ConnectionStrings:SQLiteDBConnection"];
             services.AddEntityFrameworkSqlite ().AddDbContext<FoodDBContext> (options => options.UseSqlite (dbconstring));
