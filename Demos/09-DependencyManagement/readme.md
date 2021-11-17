@@ -23,7 +23,3 @@ Source Code is located at [AZ-400-M09-AZ-Artifacts](https://github.com/arambazam
 ## Additional Labs & Walkthroughs
 
 [Manage build dependencies with Azure Artifacts](https://docs.microsoft.com/en-us/learn/modules/manage-build-dependencies/)
-
-[Create a release pipeline in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/create-release-pipeline/)
-
-[Create a multistage pipeline by using Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/create-multi-stage-pipeline/)
