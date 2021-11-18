@@ -1,3 +1,6 @@
 # Database DevOps
 
-[EF Code First](https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database)
+- Change based DB Deployment
+- State based DB Deployment
+
+[DataOps for the modern data warehouse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/data-warehouse/dataops-mdw)

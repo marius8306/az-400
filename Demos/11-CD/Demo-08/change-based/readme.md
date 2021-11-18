@@ -1,4 +1,6 @@
-# Change based DB deployment
+# Change based DB Deployment
+
+[EF Code First](https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database)
 
 [EF Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
 
