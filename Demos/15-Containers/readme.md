@@ -6,7 +6,6 @@
 - Create and use Azure Container Registry
 - Execute Build Task on Azure Container Registry
 - Build Docker Image in Pipeline
-- Hosting on Web App for Container / Azure Container Instances
 
 ## Readings
 
