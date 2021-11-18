@@ -1,4 +1,4 @@
-rnd=030
+rnd=dev
 grp=foodapp-$rnd
 loc=westeurope
 aks=foodcluster-$rnd
