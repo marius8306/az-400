@@ -18,6 +18,8 @@
 
 [AzureResourceManagerTemplateDeployment Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/azure/deploy-arm-template?view=azure-devops#create-your-pipeline-and-deploy-your-template)
 
+[Azure Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview)
+
 ## Extensions & Tools
 
 [VS Code Extension: ARM Template Viewer](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview)
