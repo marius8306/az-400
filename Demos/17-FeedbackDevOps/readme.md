@@ -22,11 +22,13 @@
 
 # Lab
 
+[Monitor the health of your Azure virtual machine by using Azure Metrics Explorer and metric alerts](https://docs.microsoft.com/en-us/learn/modules/monitor-azure-vm-using-diagnostic-data/)
+
 [Manage site reliability](https://docs.microsoft.com/en-us/learn/modules/manage-site-reliability/)
 
 [Recommend and design system feedback mechanisms](https://docs.microsoft.com/en-us/learn/modules/recommend-system-feedback-mechanisms/)
 
-[Walkthrought - Connect to Analytics with Power BI Data Connector](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/data-connector-connect?view=azure-devops)
+[Introduction to App Center](https://docs.microsoft.com/en-us/learn/modules/intro-to-app-center/)
 
 [Walktrhrough - Create and share dashboards in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
 
