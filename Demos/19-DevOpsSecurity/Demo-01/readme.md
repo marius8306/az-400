@@ -1,5 +1,3 @@
-# Azure Policy
+# Thread Modelling
 
-[Azure Policy documentation](https://docs.microsoft.com/en-us/azure/governance/policy/)
-
-https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage
+[Microsoft Thread Modelling Tool](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)

@@ -1,5 +1,5 @@
-# Azure Blueprint
+# Azure Policy
 
-[Azure Blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/)
+[Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 
-- Create and assign Blueprint from the prev demo
+[Azure Policy Samples](https://github.com/Azure/azure-policy)

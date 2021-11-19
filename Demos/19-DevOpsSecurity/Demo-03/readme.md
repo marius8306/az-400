@@ -1,3 +1,5 @@
-# Security Center
+# Azure Blueprint
 
-- Explain Security Center
+[Azure Blueprints](https://docs.microsoft.com/en-us/azure/governance/blueprints/)
+
+- Create and assign Blueprint from the prev demo
