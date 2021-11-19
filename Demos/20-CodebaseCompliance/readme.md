@@ -4,7 +4,6 @@
 
 - Sonar Cloud
 - WhiteSource Bolt
-- OWASP ZAP
 
 ## Readings
 
