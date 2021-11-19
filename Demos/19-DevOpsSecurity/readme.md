@@ -2,10 +2,10 @@
 
 ## Demos
 
+- Thread Modelling
 - Azure Policy
 - Azure Blueprint
 - Azure Security Center
-- Explain AAD Logs and Audit Logs
 
 ## Readings
 
