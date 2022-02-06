@@ -1,8 +1,8 @@
 rnd=$RANDOM
-grp=az400-m10-checkazfx-$rnd
+grp=az400-m11-funcapp-$rnd
 loc=westeurope
-app=m10checkazfx-$rnd
-storage=m10checkazfx$rnd
+app=m11funcapp-$rnd
+storage=m11funcapp$rnd
 
 az group create -n $grp -l $loc
 

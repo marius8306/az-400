@@ -3,9 +3,10 @@
 ## Demos
 
 - Service Connections and its relation to App Registrations
-- .NET Core Release using Designer
-- Deployment with Stages inkluding Gates & Approvals
-- Introduction to Environments
+    - Deployment with Stages inkluding Gates & Approvals
+- Yaml based Deployment Jobs, Environments and Gates
+- Node based Azure Function Deployment using yaml
+- Using Azure Functions as Custom Gates (optional)
 
 ## Readings
 
