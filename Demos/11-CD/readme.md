@@ -8,7 +8,6 @@
 - Task Groups, Templates
 - Deployment with Testing (optional)
 - File Transforms (optional)
-- Azure Function DevOps (optional)
 - DB Deployment (optional)
 - Health Inspection (optional)
 
