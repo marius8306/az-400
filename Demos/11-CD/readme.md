@@ -4,7 +4,6 @@
 
 - Deployment Introduction, Deployment Groups
 - Deployment Tasks, Environments, Passing Vars between Stages
-- Using Key Vault in Deployments
 - Task Groups, Templates
 - Deployment with Testing (optional)
 - File Transforms (optional)
