@@ -1,6 +1,6 @@
 # SharePoint Framework Build
 
-[![Build Status](https://dev.azure.com/az-400-v2/M06-CI/_apis/build/status/SPFxWebPart%20Build%20Yaml?branchName=main)](https://dev.azure.com/az-400-v2/M06-CI/_build/latest?definitionId=13&branchName=main)
+[![Build status](https://dev.azure.com/integrations-training/M06-CI/_apis/build/status/SPFx%20Build%20Designer)](https://dev.azure.com/integrations-training/M06-CI/_build/latest?definitionId=14)
 
 Uses SPFx Sample Repo [https://github.com/arambazamba/spfx-devops](https://github.com/arambazamba/spfx-devops)
 
