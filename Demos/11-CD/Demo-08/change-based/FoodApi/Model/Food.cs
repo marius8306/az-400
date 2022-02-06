@@ -7,6 +7,8 @@ namespace FoodApi {
         public string PictureUrl { get; set; }
         public string Code {get;set;}
         public DateTime Date {get;set;}
+
+        public Boolean Discontinoued { get; set; }
     }
 
 }

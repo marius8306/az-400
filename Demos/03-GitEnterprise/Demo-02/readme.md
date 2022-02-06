@@ -3,5 +3,5 @@
 Use this repo:
 
 ```
-https://az-400-v2@dev.azure.com/az-400-v2/AZ-400-M04-GitEnterprise/_git/M04-ProtectedBranch
+https://integrations-training@dev.azure.com/integrations-training/M03-GitEnterprise/_git/M04-ProtectedBranch
 ```

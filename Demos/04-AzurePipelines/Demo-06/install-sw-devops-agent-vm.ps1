@@ -21,9 +21,9 @@ choco install git -y
 choco install azure-cli -y
 choco install azurepowershell -y
 choco install dotnetcore-sdk -y
-choco install dotnet-5.0-sdk -y
+choco install dotnet-6.0-sdk -y
 choco install visualstudio2019buildtools -y
-choco install nodejs-lts --version=12.18.4 -y
+choco install nodejs-lts --version=14.18.4 -y
 choco install azure-pipelines-agent --params "'/Directory:c:\agent'" -y
 
 # Refresh Path Env for npm 

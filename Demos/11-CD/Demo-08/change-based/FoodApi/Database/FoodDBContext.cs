@@ -6,8 +6,8 @@ namespace FoodApi
 {
     //To manage Migrations & create the DB go to console:
     //[dotnet restore]
-    //dotnet ef migrations add MIGRATION-NAME
-    //dotnet ef database update
+    // dotnet ef migrations add MIGRATION-NAME
+    // dotnet ef database update
 
     public class FoodDBContext : DbContext //Use DbContext if not using Identity
     {

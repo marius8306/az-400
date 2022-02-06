@@ -7,7 +7,7 @@
 -   Execute `create-agent-vm.azcli` to install the vm in Cloud Shell using
 
 ```bash
-curl https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePipelines/Demo-05/create-agent-vm.azcli | bash
+curl https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePipelines/Demo-06/create-agent-vm.sh | bash
 ```
 
 > Note: If you want to change the vm size use: `az vm list-sizes --location westeurope -o table`
@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePip
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force;
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/ARambazamba/AZ-400/main/Demos/04-AzurePipelines/Demo-05/setup-devops-agent-vm.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePipelines/Demo-06/install-sw-devops-agent-vm.ps1'))
 ```
 
 -   Complete the agent config:
