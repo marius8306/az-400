@@ -2,13 +2,14 @@
 
 ## Demos
 
+- Passing Vars between Stages
 - Deployment Introduction, Deployment Groups
-- Deployment Tasks, Environments, Passing Vars between Stages
-- Task Groups, Templates
-- Deployment with Testing (optional)
-- File Transforms (optional)
-- DB Deployment (optional)
+- Task Groups
+- Using File Transforms to change config
+- .NET 6 Unit Testing
+- Angular End to End Testing
 - Health Inspection (optional)
+- Database DevOps (optional)
 
 ## Additional Labs & Walkthroughs
 
