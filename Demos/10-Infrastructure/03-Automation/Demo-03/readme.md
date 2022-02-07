@@ -1,3 +1,3 @@
 # Desired State Configuration
 
-[Import DCS Configuration](https://docs.microsoft.com/en-us/azure/automation/automation-dsc-getting-started)
+[Get started with Azure Automation State Configuration](https://docs.microsoft.com/en-us/azure/automation/automation-dsc-getting-started)

@@ -1,13 +1,5 @@
 # 01 Infrastructure and Configuration Azure Tools
 
-- Manual ARM Deployment with local File and from Git
-- Deploy to Azue Button
-- Use AzureResourceManagerTemplateDeployment Task in Designer pipeline
-- Use AzureResourceManagerTemplateDeployment Task in yaml pipeline
-- Use Secrets in ARM Deployment
-
-## Readings
-
 [ARM Template Documentation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/)
 
 [Azure Quickstart Templates](https://azure.microsoft.com/en-us/resources/templates/)
@@ -19,6 +11,11 @@
 [AzureResourceManagerTemplateDeployment Task](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/azure/deploy-arm-template?view=azure-devops#create-your-pipeline-and-deploy-your-template)
 
 [Azure Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview)
+
+## Demos
+
+- Manual ARM Deployment with local File and from Git
+- Use AzureResourceManagerTemplateDeployment Task in Designer and yaml pipeline
 
 ## Extensions & Tools
 

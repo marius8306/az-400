@@ -2,8 +2,7 @@
 
 [Chocolatey](https://chocolatey.org/)
 
-To Install execute:
+## Demo
 
-```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
+- Explain `setup-az-400.ps1` from `/Setup`
+- Explanin [Custom Script Extension for Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows). Mention Linux version.
