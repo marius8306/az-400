@@ -10,7 +10,7 @@ param(
 )
 #Connect to Azure using the Run As Account
 Try{
-    $servicePrincipalConnection=Get-AutomationConnection -Name "AzureRunAsConnection"
+    $servicePrincipalConnection=Get-AutomationConnection -Name AzureRunAsConnection
     Add-AzureRmAccount -ServicePrincipal -TenantId $servicePrincipalConnection.TenantId -ApplicationId $servicePrincipalConnection.ApplicationId -CertificateThumbprint $servicePrincipalConnection.CertificateThumbprint
 }
 Catch {

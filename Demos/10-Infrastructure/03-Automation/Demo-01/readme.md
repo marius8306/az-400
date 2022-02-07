@@ -1,8 +1,9 @@
-# Chocolatey
+# Automation Account
 
-[Chocolatey](https://chocolatey.org/)
+[Azure Automation runbook types](https://docs.microsoft.com/en-us/azure/automation/automation-runbook-types)
 
 ## Demo
 
-- Explain `setup-az-400.ps1` from `/Setup`
-- Explanin [Custom Script Extension for Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows). Mention Linux version.
+- Execute `create-deployment-vm.azcli`
+- Create RunAs account
+- Explaing `Start-Stop-VM.ps1` PowerShell Runbook
