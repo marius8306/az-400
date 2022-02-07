@@ -25,7 +25,9 @@ Complete the agent config:
 
 ```PowerShell
 cd \agent
-.\config.cmd --deploymentgroup --deploymentgroupname "Azure-Webserver" --agent $env:COMPUTERNAME --runasservice --work '_work' --url 'https://dev.azure.com/integrations-training/' --projectname 'M11-ContinousDeployment' --auth PAT --token exaymaqys....
+.\config.cmd --deploymentgroup --deploymentgroupname "Azure-Webserver" --agent $env:COMPUTERNAME --runasservice --work '_work' \
+--url 'https://dev.azure.com/integrations-training/' \
+--projectname 'M11-ContinousDeployment' --auth PAT --token exaymaqys....
 ```
 
 ![config-agent.jpg](_images/config-agent.jpg)
