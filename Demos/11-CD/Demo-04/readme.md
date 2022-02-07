@@ -10,4 +10,4 @@ The transformation and substitution options are:
 
 ## Demos
 
-- Show [pipeline ng-build-deploy-app-service.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/ng-build-deploy-app-service.yml)
+- Show pipeline [ng-build-deploy-app-service.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/ng-build-deploy-app-service.yml)
