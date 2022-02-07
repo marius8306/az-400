@@ -5,8 +5,7 @@
 
 ## Demos
 
-- Execute `create-api-webapp.azcli`
-- Execute `api-build-deploy.yml` from [FoodApp](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-deploy.yml)
+- Execute `create-deployment-vm.azcli`
 
 Ensure that IIS is installed. To install all feature use an elevated PowerShell prompt and execute:
 
