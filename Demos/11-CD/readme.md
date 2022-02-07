@@ -7,7 +7,6 @@
 - Task Groups
 - Using File Transforms to change config
 - .NET 6 Unit Testing
-- Angular End to End Testing
 - Health Inspection (optional)
 - Database DevOps (optional)
 

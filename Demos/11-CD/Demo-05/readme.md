@@ -1,8 +1,5 @@
 # Testing
 
-Uses [mvc-devops repo](https://github.com/arambazamba/mvc-devops)
+- Show [api-build-template-unittest.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-template-unittest.yml)
 
-## Demos
-
-- Unit Test
-- UI Test
+- Show [api-build-unittest-deploy.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-unittest-deploy.yml)

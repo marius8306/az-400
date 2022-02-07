@@ -1,3 +1,8 @@
-# Healt Inspection
+# Database DevOps
 
-[Send Azure DevOps Audit Data to Azure Monitor using Audit Streaming](https://docs.microsoft.com/en-us/azure/devops/organizations/audit/auditing-streaming?view=azure-devops)
+- Change based DB Deployment
+- State based DB Deployment
+
+[DataOps for the modern data warehouse](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/data-warehouse/dataops-mdw)
+
+[Machine learning DevOps guide](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/ai-machine-learning-mlops)
