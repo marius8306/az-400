@@ -1,0 +1,14 @@
+rnd=$RANDOM
+loc=westeurope
+grp=az400-m10-automation
+vmname=automationvm-$rnd
+user=azadmin
+pwd=Az@dmin1234!@
+
+az group create -n $grp -l $loc
+
+az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image  MicrosoftWindowsServer:WindowsServer:2022-datacenter-g2:latest --size Standard_B2ms --public-ip-sku Standard
+
+az vm auto-shutdown -g $grp -n $vmname --time 1730
+
+echo "create vm: $vmname"

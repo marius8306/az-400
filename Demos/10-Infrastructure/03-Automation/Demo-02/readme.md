@@ -5,3 +5,8 @@
 [Example: Microsoft 365 Related Azure Automation - Example](https://docs.microsoft.com/bs-latn-ba/azure/automation/manage-office-365)
 
 [Example: Use Azure AD in Azure Automation to authenticate to Azure](https://docs.microsoft.com/bs-latn-ba/azure/automation/automation-use-azure-ad)
+
+## Demo
+
+- Execute `create-lab-vm.azcli`
+- Explaing `Start-Stop-VM.ps1` PowerShell Runbook
