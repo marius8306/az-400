@@ -26,12 +26,12 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://cho
 
 
 choco install azure-pipelines-agent --params "'/Directory:c:\agent'" -y
-cd \agent
 ```
 
 -   Complete the agent config:
 
 ```PowerShell
+cd \agent
 .\config.cmd --deploymentgroup --deploymentgroupname "Azure-Webserver" --agent $env:COMPUTERNAME --runasservice --work '_work' --url 'https://dev.azure.com/integrations-training/' --projectname 'M11-ContinousDeployment' --auth PAT --token exaymaqys....
 ```
 
