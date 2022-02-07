@@ -40,6 +40,10 @@ cd \agent
 
 ![config-agent](_images/config-agent.png)
 
+Inspect Environment and Virtual Machine Ressource:
+
+![env](_images/env.png)
+
 Check the agent:
 
 ![check-targets](_images/check-targets.png)
