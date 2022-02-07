@@ -1,10 +1,7 @@
-# Deployment - Getting started
+# Introduction to Environments and Deployments Jobs
 
-[Deployment groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/deployment-groups/?view=azure-devops)
+[Use output variables from tasks](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch#use-output-variables-from-tasks)
 
 ## Demos
 
-- Explain Deployment Groups
-- Execute `create-api-webapp.azcli`
-- Execute `api-build-deploy.yml` from [FoodApp](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-deploy.yml)
-
+- Explain Passing Vars
