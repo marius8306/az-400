@@ -5,7 +5,7 @@
 
 ## Demos
 
-- Execute `create-deployment-vm.azcli`
+Execute `create-deployment-vm.azcli` to create a vm to deploy to
 
 Ensure that IIS is installed. To install all feature use an elevated PowerShell prompt and execute:
 
@@ -28,7 +28,7 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://cho
 choco install azure-pipelines-agent --params "'/Directory:c:\agent'" -y
 ```
 
--   Complete the agent config:
+Complete the agent config:
 
 ```PowerShell
 cd \agent
@@ -37,6 +37,6 @@ cd \agent
 
 ![config-agent](_images/config-agent.png)
 
-- Check the agent:
+Check the agent:
 
 ![check-targets](_images/check-targets.png)
