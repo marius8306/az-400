@@ -1,1 +1,0 @@
-Get-WindowsOptionalFeature -Online | where FeatureName -like 'IIS-*'
