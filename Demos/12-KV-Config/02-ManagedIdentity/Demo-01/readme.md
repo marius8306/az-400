@@ -1,7 +1,9 @@
 # Using Managed Idenity
 
-Sample uses Managed Identity App from [GitHub](https://github.com/ARambazamba/ManagedIdentityApp)
+Sample uses FoodApp
 
-- Explanin Microsoft.Azure.Services.AppAuthentication
-- Explain .NET 5 support
-- Show Deployment using GitHub Actions
+- Explain Managed Identity Basics in Short
+- Explain `create-api-mi.azcli`
+- Explain Microsoft.Azure.Services.AppAuthentication
+- Import `api-build-provision-deploy-mi.yml`
+

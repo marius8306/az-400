@@ -1,5 +1,5 @@
 env=secure
-grp=az400-foodapp-$env
+grp=az400-spfx-$env
 loc=westeurope
 vault=spfxvault-$env
 
