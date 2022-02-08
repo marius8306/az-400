@@ -1,7 +1,7 @@
-rnd=$RANDOM
-grp=az400-foodapp
+env=secure
+grp=az400-foodapp-$env
 loc=westeurope
-vault=foodvault-$rnd
+vault=spfxvault-$env
 
 az group create -n $grp -l $loc
 
