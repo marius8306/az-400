@@ -1,4 +1,4 @@
-# Using File Transforms to change config
+# Using File Transforms and Caching
 
 The transformation and substitution options are:
 
@@ -7,6 +7,8 @@ The transformation and substitution options are:
 - JSON variable substitution
 
 [File transforms and variable substitution reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/transforms-variable-substitution?view=azure-devops&tabs=Classic)
+
+[Pipeline caching](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/caching?view=azure-devops)
 
 ## Demo
 

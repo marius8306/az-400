@@ -5,9 +5,9 @@
 - Passing Vars between Stages
 - Deployment Introduction, Deployment Groups
 - Task Groups
-- Using File Transforms to change config
+- Using File Transforms and Caching
 - .NET 6 Unit Testing
-- Health Inspection (optional)
+- Health Inspection
 - Database DevOps (optional)
 
 ## Additional Labs & Walkthroughs
