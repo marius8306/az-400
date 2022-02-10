@@ -1,12 +1,9 @@
 # Azure Container Registry Build
 
-## Simple Node Express App
+[Automate container image builds and maintenance with ACR Tasks](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tasks-overview)
 
-Build Docker & Test
+## Demo
 
-```
-docker build -t arambazamba/node-app .
-docker run -p 8090:80 -d arambazamba/node-app
-```
+Execute `create-acr-build.azcli` in folder `food-ui` to execute build using Azure Contaienr Registry manually.
 
-Execute `create-acr-build.azcli`
+Show pipeline [api-build-docker-img.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-docker-img.yml)

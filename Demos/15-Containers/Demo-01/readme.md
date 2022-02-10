@@ -2,6 +2,8 @@
 
 [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
 
+[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+
 [Angular](https://angular.io/)
 
 [NGINX](https://www.nginx.com/)

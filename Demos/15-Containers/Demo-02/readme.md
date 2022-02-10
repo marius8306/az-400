@@ -1,10 +1,13 @@
 # Azure Container Registry
 
-Publish to ACR:
+[Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/)
 
-Execute `create-container-reg` and upload:
+## Demo
 
-```
-docker tag foodui foodacr-1234.azurecr.io/foodui
-docker push foodacr-1234.azurecr.io/foodui
+Execute `create-container-reg` and upload img manually:
+
+```bash
+...
+docker tag foodui $acr.azurecr.io/foodui
+docker push $acr.azurecr.io/foodui
 ```
