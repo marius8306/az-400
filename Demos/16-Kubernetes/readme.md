@@ -2,7 +2,7 @@
 
 ## Demos
 
-- Create and use a cluster on Azure Kubernetes Services 
+- Create AKS Cluster and deploy manually
 - Build an image and deploy it to a Kubernetes cluster using Azure DevOps pipelines
 - Helm Basics
 
