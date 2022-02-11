@@ -1,3 +1,7 @@
-# Build Docker Image in Pipeline
+# Build Angular UI and Deploy to ACI using pipeline
 
-Explain `api-docker.yml` from [food-app](https://github.com/arambazamba/food-app)
+Explain [deploy-img-aci.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/deploy-img-aci.yml)
+
+Set credentials as pipeline variables:
+
+![admin-usr](_images/admin-usr.png)
