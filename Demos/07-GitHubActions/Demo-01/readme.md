@@ -1,4 +1,4 @@
-# Github Actions
+# .NET 6 Build & Deployment using GitHub Action
 
 [Manually running a workflow](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow)
 

@@ -2,9 +2,9 @@
 
 ## Demos
 
-- .NET Build using GitHub Action
-- Azure Static Website
-- Use GitHub Script
+- .NET 6 Build & Deployment using GitHub Action
+- Using Azure Static Webapp with Angular UI
+- Using GitHub Script
 
 ## Readings
 

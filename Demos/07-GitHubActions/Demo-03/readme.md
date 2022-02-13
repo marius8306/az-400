@@ -1,4 +1,4 @@
-# GitHub Script
+# Using GitHub Script
 
 [GitHub Script](https://github.com/actions/github-script)
 
@@ -8,6 +8,6 @@
 
 ## Demo 
 
-- Explain GitHubs Script used in [FoodApp](https://github.com/arambazamba/FoodApp/actions/runs/1097197804/workflow)
+- Explain GitHubs Script used in [FoodApp](https://github.com/arambazamba/food-app/actions/workflows/issue-processing.yml)
 
 ![github-script](_images/github-script.png)
