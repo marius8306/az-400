@@ -1,8 +1,10 @@
 # Github Actions
 
-[FoodApp Sample App](https://github.com/ARambazamba/FoodApp) - A .NET Core Api and Angular UI implemented as Cloud Native App with step by step Installation Scripts
+[Manually running a workflow](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow)
 
-- Explain `.github/workflows/` of repo
+## Demo
+
 - Execute `create-api-webapp.azcli`
-- Update Publishing Profile
+- Update Publishing Profile in [Secrets](https://github.com/arambazamba/food-app/settings/secrets/actions)
+- Explain [.github/workflows/build-deploy-api.yml](https://github.com/arambazamba/food-app/actions/workflows/build-deploy-api.yml) of repo
 - Run workflow Build .NET Core Api & Deploy Food Api
