@@ -1,5 +1,3 @@
-# 2 Tier App using Application Insights
+# Using Application Insights
 
-- Create Application insights instance. Note Key / Random Number and use it in Api and UI
-- Create and deploy Api. Note Url and add it to ng Api Url
-- Create and deploy UI
+- Use `deploy-app-insights.yml` to deploy api and ui of [FoodApp](https://github.com/arambazamba/food-app)
