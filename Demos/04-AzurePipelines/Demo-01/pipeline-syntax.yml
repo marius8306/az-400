@@ -17,12 +17,12 @@ variables:
   # enable debugging
   System.Debug: true
 
-# pool:
-#   vmImage: "ubuntu-latest"
+pool:
+  vmImage: "ubuntu-latest"
 
 # use a selfhosted pool
-pool:
-    name: linux-selfhosted
+# pool:
+#     name: linux-selfhosted
 
 stages:
   - stage: stageA
@@ -30,7 +30,7 @@ stages:
     jobs:
       - job: stageAJobA
         # pool:
-        #   vmImage: "ubuntu-latest"
+          # vmImage: "ubuntu-latest"
 
         steps:
           - task: Bash@3
@@ -49,8 +49,8 @@ stages:
             inputs:
               targetType: 'inline'
               script: echo 'Executing JobB'
-  
-  - stage: stageB
+
+  - stage: stageB    
     # pool:
     #   vmImage: "ubuntu-latest"
 
