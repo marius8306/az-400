@@ -1,9 +1,9 @@
-rnd=021
-grp=az400-policy-$rnd
+env=az-policy
+grp=az400-m18-$env
 loc=westeurope
-acct=storage$rnd
-appPlan=az400-policy-$rnd
-web=policy-$rnd
+acct=storage$env
+appPlan=az400-$env
+web=policy-$env
 
 az group create -n $grp -l $loc
 

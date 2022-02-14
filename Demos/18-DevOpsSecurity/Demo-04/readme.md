@@ -1,5 +1,5 @@
-# Security Center
+# Microsoft Defender for Cloud - prev known as Azure Security Center
 
-[Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/)
+[Microsoft Defender for Cloud Documentation](https://docs.microsoft.com/en-us/azure/defender-for-cloud/)
 
 - Explain Security Center
