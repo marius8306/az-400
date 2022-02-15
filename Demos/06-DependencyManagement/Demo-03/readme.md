@@ -1,4 +1,4 @@
 # Azure Artifacts
 
-- Use the Package in a build
+- Use the package in `consume-foodcalc.yaml`
 - Promote a Package using Azure Artifacts
