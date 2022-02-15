@@ -1,5 +1,9 @@
 # YAML Pipelines
 
+[Predefined Variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml)
+
+## Demo
+
 Add `net-core-api-build.yml` to `simple-api` repo
 
 ```yml

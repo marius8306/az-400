@@ -1,12 +1,12 @@
 # .NET Core Build
 
-- Requires [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
+[Build Tasks](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/?view=azure-devops)
+
+## Demo
+
+- Requires [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 - Show Build pipeline with designer and yaml
 - Show simple release just to prove that is works
-
-## Demo Instructions
-
-### Create a simple .NET Core Api
 
 Create a .NET Core Api outside of this repo:
 
@@ -61,8 +61,6 @@ Test using:
 ```
 dotnet watch run
 ```
-
-### Upload to a new DevOps Project and Create Pipelines
 
 - Create a new DevOps Project `AZ-400-M04-AzurePipelines`
 - Get the default repo url - example: `https://YourOrg@dev.azure.com/YourOrg/AZ-400-M04-AzurePipelines/\_git/AZ-400-M04-AzurePipelines`

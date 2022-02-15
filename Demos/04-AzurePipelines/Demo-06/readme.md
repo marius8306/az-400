@@ -2,7 +2,9 @@
 
 [Self-hosted Windows agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops)
 
-## Quick Guide
+[Buildtools für Visual Studio 2019](https://visualstudio.microsoft.com/de/downloads/?rr=https%3A%2F%2Fwww.google.com%2F)
+
+## Demo
 
 Execute `create-agent-vm.azcli` to install the vm in Cloud Shell using:
 
@@ -27,7 +29,7 @@ Complete the agent config:
 cd \agent
 .\config.cmd --deploymentgroup --deploymentgroupname "Azure-Webserver" --agent $env:COMPUTERNAME --runasservice --work '_work' \
 --url 'https://dev.azure.com/integrations-training/' \
---projectname 'M11-ContinousDeployment' --auth PAT --token exaymaqys....
+--projectname 'M04-AzurePipelines' --auth PAT --token exaymaqys....
 ```
 
 ![config-agent.jpg](_images/config-agent.jpg)
