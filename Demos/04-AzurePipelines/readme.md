@@ -1,5 +1,13 @@
 # Implement & Manage Build Infrastructure
 
+[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
+
+[Azure Pipelines Ecosystem Support](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
+
+[Azure Pipelines agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
+
+[Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
+
 ## Demos
 
 -   Pipeline Syntax
@@ -19,16 +27,6 @@ Install Azure DevOps Extension:
 ```
 az extension add --name azure-devops
 ```
-
-## Build Pipelines
-
-[Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
-
-[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
-
-[Azure Pipelines Ecosystem Support](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
-
-[Azure Pipelines agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
 
 ## Extensions & Tools
 
