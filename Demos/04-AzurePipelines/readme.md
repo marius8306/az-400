@@ -3,9 +3,9 @@
 ## Demos
 
 -   Pipeline Syntax
--   .Net 5 Build Designer
--   .Net 5 Bulid Yaml
--   .Net 5 Deployment to App Service
+-   .Net Build Designer
+-   .Net Bulid Yaml
+-   .Net Deployment to App Service
 -   Use Github Service Connection
 -   Configure a self hosted agent on an Azure Windows VM
 -   Implement & Use a Self-hosted Docker Agent using Azure Container Instances (optional)
