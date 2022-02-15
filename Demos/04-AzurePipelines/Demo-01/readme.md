@@ -7,3 +7,7 @@
 [Key concepts for new Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
 
 ![key-concepts-overview](_images/key-concepts-overview.svg)
+
+## Demos
+
+- Explain `pipeline-syntax.yml`, `dependency-job.yml` and `parallel-jobs.yml`
