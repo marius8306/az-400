@@ -10,4 +10,4 @@
 
 ## Demos
 
-- Explain `pipeline-syntax.yml`, `dependency-job.yml` and `parallel-jobs.yml`
+Explain `pipeline-syntax.yml`, `dependency-job.yml` and `parallel-jobs.yml`
