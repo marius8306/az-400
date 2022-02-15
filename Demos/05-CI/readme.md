@@ -11,10 +11,6 @@
 
 ## Readings
 
-[Using Variables in Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
-
-[Understand variable syntax](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch#understand-variable-syntax)
-
 [Using Expressions in Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/expressions?view=azure-devops)
 
 [Configure run or build numbers](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
