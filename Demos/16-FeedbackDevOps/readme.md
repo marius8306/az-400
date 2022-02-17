@@ -1,9 +1,5 @@
 # Implement Process for Routing System Feedback to Development Teams
 
-[Join the Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
-
-[Microsoft Teams](https://products.office.com/de-at/microsoft-teams/group-chat-software)
-
 [Azure Monitor documentation](https://docs.microsoft.com/en-us/azure/azure-monitor/)
 
 [Stream DevOps Logs to Azure Monitor](https://docs.microsoft.com/en-us/azure/devops/organizations/audit/auditing-streaming?view=azure-devops)
