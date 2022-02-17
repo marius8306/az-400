@@ -2,4 +2,4 @@
 
 [Microsoft Defender for Cloud Documentation](https://docs.microsoft.com/en-us/azure/defender-for-cloud/)
 
-- Explain Security Center
+- Explain Defender for Cloud
