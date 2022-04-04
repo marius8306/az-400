@@ -1,7 +1,7 @@
 trigger:
   branches:
     include:
-      - master
+      - master    
 
   # paths:
   #   include:
@@ -15,7 +15,7 @@ variables:
   name: somevar
   value: somevarvalue
   # enable debugging
-  System.Debug: true
+  # System.Debug: true
 
 pool:
   vmImage: "ubuntu-latest"
@@ -26,7 +26,6 @@ pool:
 
 stages:
   - stage: stageA
-
     jobs:
       - job: stageAJobA
         # pool:
@@ -37,8 +36,7 @@ stages:
             inputs:
               targetType: 'inline'
               script: echo 'Executing JobA'
-  
-
+                    
       - job: stageAJobB
         dependsOn: []
         # pool:
