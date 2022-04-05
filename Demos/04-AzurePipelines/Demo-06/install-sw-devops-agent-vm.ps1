@@ -23,11 +23,12 @@ choco install azurepowershell -y
 choco install dotnetcore-sdk -y
 choco install dotnet-6.0-sdk -y
 choco install visualstudio2019buildtools -y
-choco install nodejs-lts --version=14.18.4 -y
+choco install nodejs --version=14.15.0 -y
 choco install azure-pipelines-agent --params "'/Directory:c:\agent'" -y
 
 # Refresh Path Env for npm 
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+Import-Module "$env:ChocolateyInstall\helpers\chocolateyInstaller.psm1" -Force
+refreshenv
 
 # Node based toools
 npx @angular/cli@latest analytics off
