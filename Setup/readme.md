@@ -5,24 +5,7 @@
 Execute `create-lab-vm.azcli` or run the following remote script in Cloud Shell
 
 ```bash
-curl https://raw.githubusercontent.com/arambazamba/az-204/main/Setup/create-lab-vm.azcli | bash
-```
-
-![create-labvm](_images/create-lab-vm.jpg)
-
-`create-lab-vm.azcli`:
-
-```bash
-rnd=$RANDOM
-loc=westeurope
-grp=az-lab
-vmname=labvm-$rnd
-user=azlabadmin
-pwd=Lab@dmin1234
-
-az group create -n $grp -l $loc
-
-az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:win10-21h2-pro-g2:latest --size Standard_E2s_v3 --public-ip-sku Standard
+curl https://raw.githubusercontent.com/arambazamba/az-400/main/Setup/create-lab-vm.azcli | bash
 ```
 
 ## Connect to VM
