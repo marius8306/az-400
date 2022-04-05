@@ -25,6 +25,10 @@
 
 [Learning Path - Build applications with Azure DevOps](https://docs.microsoft.com/en-us/learn/paths/build-applications-with-azure-devops/)
 
+[Implement a code workflow in your build pipeline by using Git and GitHub](https://docs.microsoft.com/en-us/learn/modules/implement-code-workflow/)
+
+[Unit Tests - Run quality tests in your build pipeline by using Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/)
+
 [Azure DevOps Labs - Enabling Continuous Integration with Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration/)
 
 [Azure DevOps Labs - Integrating Jenkins CI with Azure Pipelines ](https://www.azuredevopslabs.com/labs/vstsextend/jenkins/)
