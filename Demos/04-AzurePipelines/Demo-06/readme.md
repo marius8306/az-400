@@ -9,7 +9,7 @@
 Execute `create-agent-vm.azcli` to install the vm in Cloud Shell using:
 
 ```bash
-curl https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePipelines/Demo-06/create-agent-vm.sh | bash
+curl https://raw.githubusercontent.com/arambazamba/az-400/main/Demos/04-AzurePipelines/Demo-06/create-agent-vm.azcli | bash
 ```
 
 > Note: If you want to change the vm size use: `az vm list-sizes --location westeurope -o table`
