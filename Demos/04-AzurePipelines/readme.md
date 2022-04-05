@@ -42,6 +42,8 @@ az extension add --name azure-devops
 
 [Host your own build agent in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/host-build-agent/)
 
+[Describe pipelines and concurrency](https://docs.microsoft.com/en-us/learn/modules/describe-pipelines-concurrency/)
+
 [Azure DevOps Labs - Integrate Your GitHub Projects With Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
 
 [Azure DevOps Labs - Deploying a Multi-Container Application](https://azuredevopslabs.com/labs/vstsextend/kubernetes/)

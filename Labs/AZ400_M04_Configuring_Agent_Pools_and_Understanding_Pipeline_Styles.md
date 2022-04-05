@@ -4,6 +4,8 @@ lab:
     module: 'Module 4: Configuring Azure Pipelines'
 ---
 
+>Note: Lab is outdated. Complete lab [Host your own build agent in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/host-build-agent/) instead
+
 # Lab 05: Configuring Agent Pools and Understanding Pipeline Styles
 # Student lab manual
 
