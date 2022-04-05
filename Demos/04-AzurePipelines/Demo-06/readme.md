@@ -4,6 +4,8 @@
 
 [Buildtools für Visual Studio 2019](https://visualstudio.microsoft.com/de/downloads/?rr=https%3A%2F%2Fwww.google.com%2F)
 
+[Agent Demands](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/demands?view=azure-devops&tabs=yaml)
+
 ## Demo
 
 Execute `create-agent-vm.azcli` to install the vm in Cloud Shell using:
