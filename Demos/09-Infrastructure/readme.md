@@ -3,3 +3,4 @@
 - ARM Templates
 - Azure CLI
 - Automation
+- Bicep (optional)
