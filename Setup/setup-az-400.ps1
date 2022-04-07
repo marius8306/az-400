@@ -42,6 +42,7 @@ code --install-extension ms-azure-devops.azure-pipelines
 code --install-extension ms-azuretools.vscode-azureterraform
 code --install-extension vs-publisher-1448185.keyoti-changeallendoflinesequence
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+code --install-extension msazurermtools.azurerm-vscode-tools
 
 # Azurite Storage Emulator & Function Core Tools v3
 npm install -g azure-functions-core-tools@3 --unsafe-perm true
