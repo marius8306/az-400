@@ -5,7 +5,7 @@
 - Create a connection to ACR
 - Explain [api-build-deploy-k8s.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-deploy-k8s.yml)
 - Create a Kubernetes ressource with implicit Kubernetes Service Connection
-  ![ressource](_images/ressource.png)
+  ![ressource](_images/ressource.png) in environment `foodapp-staging`
 - Run pipeline
 
 ## UI
