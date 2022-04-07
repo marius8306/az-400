@@ -217,7 +217,7 @@ git pull / git push
 
 ![forking-wf](_images/forking-workflow.jpg)
 
-Original Repo could be: `https://github.com/ARambazamba/AZ-204` where `ARambazamba` is the `original-owner-github-username` and `AZ-204` is the `reponame`
+Original Repo could be: `https://github.com/ARambazamba/az-400` where `ARambazamba` is the `original-owner-github-username` and `az-400` is the `reponame`
 
 ### Listing the current Remotes
 
