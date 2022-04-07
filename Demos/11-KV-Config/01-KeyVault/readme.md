@@ -10,8 +10,3 @@
 
 - Show M365 Webpart Deployment
 - SQL Server Provisioning using ARM, KV and Secrets
-
-
-## Additional Labs & Walkthroughs
-
-[Externalize the configuration of an ASP.NET app by using an Azure key vault](https://docs.microsoft.com/en-us/learn/modules/aspnet-configurationbuilder/)

@@ -32,4 +32,4 @@
 
 [Authenticate apps to Azure services by using service principals and managed identities for Azure resources](https://docs.microsoft.com/en-us/learn/modules/authenticate-apps-with-managed-identities/)
 
-[Quickstart: Create an ASP.NET Core app with Azure App Configuration](https://docs.microsoft.com/en-us/azure/azure-app-configuration/quickstart-aspnet-core-app?tabs=core2x)
+[Implement application configuration](https://docs.microsoft.com/en-us/learn/modules/implement-application-configuration/)
