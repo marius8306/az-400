@@ -22,7 +22,3 @@
 [Introduction to App Center](https://docs.microsoft.com/en-us/learn/modules/intro-to-app-center/)
 
 [Walktrhrough - Create and share dashboards in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
-
-[Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://azuredevopslabs.com/labs/vstsextend/teams/)
-
-[Using Microsoft Teams as Your DevOps Hub](https://azuredevopslabs.com/labs/vstsextend/teams-devopshub/)
