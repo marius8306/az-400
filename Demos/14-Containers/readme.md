@@ -16,4 +16,3 @@
 [Automate Docker container deployments with Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/deploy-docker/)
 
 [Build a docker Image](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/build-image?view=azure-devops)
-ng 

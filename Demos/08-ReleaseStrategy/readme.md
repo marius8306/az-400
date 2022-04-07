@@ -20,6 +20,8 @@
 
 [Create and target an Environment](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops)
 
+[Release Dashboards](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/overview?view=azure-devops)
+
 ## Extensions & Tools
 
 [CronMaker](http://www.cronmaker.com/)
