@@ -28,3 +28,5 @@
 ## Additional Labs & Walkthroughs
 
 [OWASP and Dynamic Analyzers](https://docs.microsoft.com/en-us/learn/modules/owasp-and-dynamic-analyzers/)
+
+[Managing technical debt with SonarCloud and Azure DevOps](/Labs/AZ400_M19_Managing_technical_debt_with_SonarQube_and_Azure_DevOps.md)
