@@ -27,4 +27,6 @@
 
 ## Additional Labs & Walkthroughs
 
+[Implement Security and Compliance in an Azure DevOps pipeline](/Labs/AZ400_M18_Implement_Security_and_Compliance_in_an_Azure_DevOps_pipeline.md)
+
 [Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
