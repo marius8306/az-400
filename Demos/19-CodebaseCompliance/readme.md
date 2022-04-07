@@ -24,3 +24,7 @@
 [WhiteSource Advice](https://marketplace.visualstudio.com/items?itemName=whitesource.whitesource-advise)
 
 [DevOps Extension: OWASP ZAP Scanner](https://marketplace.visualstudio.com/items?itemName=CSE-DevOps.zap-scanner)
+
+## Additional Labs & Walkthroughs
+
+[OWASP and Dynamic Analyzers](https://docs.microsoft.com/en-us/learn/modules/owasp-and-dynamic-analyzers/)
