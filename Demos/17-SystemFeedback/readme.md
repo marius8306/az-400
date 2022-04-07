@@ -7,6 +7,7 @@
 ## Demos
 
 - Query Work Item for active bug
+- Teams Integration
 
 # Additional Labs & Walkthroughs
 
