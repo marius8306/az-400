@@ -21,4 +21,4 @@
 
 [Introduction to App Center](https://docs.microsoft.com/en-us/learn/modules/intro-to-app-center/)
 
-[Walktrhrough - Create and share dashboards in the Azure portal](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards)
+[Route system feedback to development teams](https://docs.microsoft.com/en-us/learn/modules/route-system-feedback/)

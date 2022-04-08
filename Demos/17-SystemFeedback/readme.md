@@ -11,4 +11,4 @@
 
 # Additional Labs & Walkthroughs
 
-[Route system feedback to development teams](https://docs.microsoft.com/en-us/learn/modules/route-system-feedback/)
+[Integration between Azure DevOps and Teams](/Labs/AZ400_M17_Integration_between_Azure_DevOps_and_Teams.md)
