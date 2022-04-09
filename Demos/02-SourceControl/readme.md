@@ -2,8 +2,6 @@
 
 [Git Documentation](https://git-scm.com/docs)
 
-[Import repositories from TFVC to Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-TFVC?view=azure-devops)
-
 ## Demos
 
 - Working with Git locally - Commit, Branching, Merging
@@ -19,8 +17,8 @@
 - Forking
   - Forking Workflow
   - Inner Source
-- Using Git LFS
-- Git Hooks & GitHub Events
+- Using Git LFS (optional)
+- Git Hooks & GitHub Events (optional)
 
 ## Extensions & Tools
 
