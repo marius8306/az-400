@@ -4,6 +4,8 @@
 
 [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 
+[Handling Merge Conflicts in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts)
+
 ## Git-Flow
 
 ![gitflow](_images/gitflow.png)

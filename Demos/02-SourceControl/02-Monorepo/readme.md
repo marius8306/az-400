@@ -1,4 +1,4 @@
-# Git Enterprise
+# Monorepo
 
 - Explain [Food App Monorepo](https://github.com/arambazamba/food-app/)
 - Show Pull Request
