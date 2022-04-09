@@ -1,11 +1,12 @@
-trigger:
-  branches:
-    include:
-      - master    
+# trigger:
+#   branches:
+#     include:
+#       - master    
+#   paths:
+#     include:
+#       - SomePath
 
-  # paths:
-  #   include:
-  #     - SomePath
+trigger: none
 
 variables:
   # exectJob used in condition is defined as pipeline var
