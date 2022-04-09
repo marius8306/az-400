@@ -1,24 +1,26 @@
-# 04 Third Party and Open Source Tool integration with Azure
+# 01 Infrastructure and Configuration Azure Tools
 
-## Demos
-
+- ARM Templates
+- Azure CLI
+- Automation
+- Bicep (optional)
 - Use Ansible to Provision in Azure
 - Terraform Interactive Use
 - Use Terraform in pipeline
 
-## Readings
-
-[Infrastructure Automation](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/infrastructure-automation)
-
-[Chef](https://www.chef.io/home/)
-
-[Ansible](https://www.ansible.com/)
-
-[Terraform](https://www.terraform.io/)
-
-[Puppet - CI/CD, Config Management](https://puppet.com/)
-
 ## Additional Labs & Walkthroughs
+
+[Control Azure services with the CLI](https://docs.microsoft.com/en-us/learn/modules/control-azure-services-with-cli/)
+
+[Build Azure Resource Manager templates](https://docs.microsoft.com/en-us/learn/modules/build-azure-vm-templates/)
+
+[Provision databases in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/provision-database-azure-pipelines/)
+
+[Build Azure Resource Manager templates](https://docs.microsoft.com/en-us/learn/modules/build-azure-vm-templates/)
+
+[Bicep on Microsoft Learn](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/learn-bicep)
+
+[Protect your virtual machine settings with Azure Automation State Configuration](https://docs.microsoft.com/en-us/learn/modules/protect-vm-settings-with-dsc/)
 
 [Configure infrastructure in Azure Pipelines with Ansible](https://docs.microsoft.com/en-us/learn/modules/configure-infrastructure-azure-pipelines/)
 

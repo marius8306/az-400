@@ -116,15 +116,3 @@ az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --i
 ```
 
 > Note: We are using this image and vm size because it supports nested virtualization
-
-## Troubleshoot CLI
-
-Select Directory:
-
-https://shell.azure.com/
-
-In my case issue resolved by reverting Azure Account extension version to 0.8.11.
-
-## Additional Labs & Walkthroughs
-
-[Control Azure services with the CLI](https://docs.microsoft.com/en-us/learn/modules/control-azure-services-with-cli/)
