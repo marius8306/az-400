@@ -1,21 +1,11 @@
-# GitHub Large File Storage
+# Pull Requests
 
-[GitHub Large File Storage](https://git-lfs.github.com/)
+[Create pull requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests)
 
-Track certain filetypes:
+![pull-request](_images/pull-request.jpg)
 
-```
-git lfs track "*.psd"
-```
+## Extensions & Tools
 
-Track a specific file:
+[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-```
-git add file.psd
-```
-
-List Tracked files
-
-```
-git lfs track
-```
+![code](_images/code.jpg)
