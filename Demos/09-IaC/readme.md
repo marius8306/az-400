@@ -1,7 +1,7 @@
 # 01 Infrastructure and Configuration Azure Tools
 
-- ARM Templates
 - Azure CLI
+- ARM Templates
 - Automation
 - Bicep (optional)
 - Use Ansible to Provision in Azure
