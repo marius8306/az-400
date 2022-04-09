@@ -2,7 +2,7 @@
 
 ## Demos
 
-- Working with Git locally - Commit, Branching, Merging, ...
+- Working with Git locally - Commit, Branching, Merging
 
 ## Readings
 

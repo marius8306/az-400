@@ -6,27 +6,20 @@
 
 ## Demos
 
-- Demo-01
+- Repo Structure
   - Explain Monorepo
-  - Show Pull Request
-- Demo-02
+- Branching Types
+  - GitFlow
+  - GitHub Flow
+- Branch Protection
   - Azrue Devops Protection Policy
   - Show Git Branch Protection Policy
-- Demo-03
-  - Git-Flow
+- Pull Requests
+- Forking
   - Forking Workflow
   - Inner Source
-- Demo-04  
-  - Using Git LFS
-- Demo-05
-  - Git Hooks & GitHub Events
-
-
-## Git Versioning
-
-[GitVersion Documentation](https://gitversion.net/)
-
-[GitVersion for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=gittools.gitversion)
+- Using Git LFS
+- Git Hooks & GitHub Events
 
 ## Additional Labs & Walkthroughs
 
