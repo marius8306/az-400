@@ -19,6 +19,9 @@ choco install azure-cli -y
 choco install azure-functions-core-tools-3 --params="'/x64:true'" -y
 choco install gh -y
 choco install curl -y
+choco install jdk8 -y
+choco install springtoolsuite -y
+choco install maven -y
 
 # Refresh Path Env for npm 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")

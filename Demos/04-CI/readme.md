@@ -5,7 +5,7 @@
 - Build Types
     - .NET Core Build
     - .Angular Build
-    - SPFx Build
+    - SPFx Build     
 - Using Variables
 - Multistage with Template Yaml
 - Variable Scopes in multistage pipelines

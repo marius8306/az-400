@@ -10,8 +10,8 @@
 
 ## Demos
 
--   Pipeline Syntax
 -   .Net Build Designer
+-   Pipeline Syntax
 -   .Net Bulid Yaml
 -   .Net Deployment to App Service
 -   Use Github Service Connection
