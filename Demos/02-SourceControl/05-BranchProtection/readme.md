@@ -10,8 +10,16 @@
 
 ## Demo
 
-Use this repo:
+- Use this repo: [https://integrations-training@dev.azure.com/integrations-training/M02-Git/_git/BranchProtection](https://integrations-training@dev.azure.com/integrations-training/M02-Git/_git/BranchProtection):
 
-```
-https://integrations-training@dev.azure.com/integrations-training/M02-Git/_git/BranchProtection
-```
+- Go to repositories
+- Select repository -> Policies
+- Select branch -> Explain Branch Policy
+
+    ![policy](_images/policy.jpg)
+
+- Make son changes - try direct merge/push
+- Create a feature branch, commit & execute Pull Request
+- Show pull request approval
+
+    ![pullrequest](_images/pullrequest.jpg)
