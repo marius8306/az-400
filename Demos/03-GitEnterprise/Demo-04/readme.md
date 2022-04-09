@@ -7,3 +7,5 @@
 ## Extensions & Tools
 
 [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
+![code](_images/code.jpg)
