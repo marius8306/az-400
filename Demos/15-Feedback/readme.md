@@ -1,4 +1,4 @@
-# Implement Process for Routing System Feedback to Development Teams
+# Implement continuous feedback
 
 [Azure Monitor documentation](https://docs.microsoft.com/en-us/azure/azure-monitor/)
 
@@ -6,10 +6,15 @@
 
 [IT Service Management Connector Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/itsmc-overview)
 
+[Site Reliability Engineering](https://docs.microsoft.com/en-us/azure/site-reliability-engineering/)
+
+[Feedback on product roadmap - DevOps Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/release-notes/features-timeline)
+
 ## Demos
 
 - Application Insights
-- Visual Studio App Center
+- Work Items as Gate
+- Teams Integration
 
 # Lab
 
