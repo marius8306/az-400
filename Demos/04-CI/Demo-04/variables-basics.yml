@@ -6,6 +6,7 @@ variables:
   eval: true
   name: one
   value: initialValue
+  #point out m365vars in library
   group: M365Vars
 
 pool:
