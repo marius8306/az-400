@@ -1,7 +1,8 @@
 # Azure Artifacts
 
-Use [https://github.com/arambazamba/AZ-400-M06-AZ-Artifacts](https://github.com/arambazamba/AZ-400-M06-AZ-Artifacts)
+[Artifacts in Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/artifacts-overview?view=azure-devops&tabs=nuget)
 
+## Demos
 
 - Explain Azure Artifacts
 - Show Feed and upstream sources
@@ -9,5 +10,3 @@ Use [https://github.com/arambazamba/AZ-400-M06-AZ-Artifacts](https://github.com/
     ![upstream](_images/upstream.png)
 
 - Create a Package & Publish Package to Feed using `publish-foodcalc.yml`
-
-
