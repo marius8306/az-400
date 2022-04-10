@@ -46,4 +46,4 @@ jobs:
     - script: |
         echo 'running this step'
       displayName: Step with condition
-      condition: and(eq(variables[isMain], true), eq(variables[runStep], true))
+      condition: and(eq(variables.isMain, true), eq(variables.runStep, true))
