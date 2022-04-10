@@ -1,8 +1,12 @@
 # Package Repos
 
+[Semantic Versioning](https://semver.org/)
+
+[GitVersion Documentation](https://gitversion.net/)
+
 [NuGet](https://www.nuget.org/)
 
-[Npm.js](https://www.npmjs.com/)
+[npm](https://www.npmjs.com/)
 
 ## Demo
 
