@@ -1,3 +1,3 @@
-# Passing Variables to Jobs & Stages
+# Multistage pipline build - test with Template Yaml
 
-- Show pipeline `variables-scopes.yml`
+- Show pipeline [api-build-template-unittest.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-template-unittest.yml)

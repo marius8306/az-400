@@ -1,3 +1,3 @@
-# Multistage with Template Yaml
+# Passing Variables to Jobs & Stages
 
-- Show pipeline [api-template.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-template.yml)
+- Show pipeline `variables-scopes.yml`
