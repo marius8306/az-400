@@ -44,6 +44,6 @@ jobs:
       displayName: Var from VarGrp
     
     - script: |
-        echo 'running this step'
+        echo 'running step with condition'
       displayName: Step with condition
       condition: and(eq(variables.isMain, true), eq(variables.runStep, true))

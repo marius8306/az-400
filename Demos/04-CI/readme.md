@@ -6,7 +6,7 @@
     - .NET Core Build
     - .Angular Build
     - SPFx Build
-- Using Variables and Expessions
+- Using Variables, Expessions and Conditions
 - Multistage pipelines and variable scopes
 - Multistage pipline build - test with Template Yaml
 
