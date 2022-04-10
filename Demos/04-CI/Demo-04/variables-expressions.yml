@@ -8,6 +8,9 @@ variables:
   value: initialValue
   #point out m365vars in library
   group: M365Vars
+  #use expressions and conditions
+  isMain: $[eq(variables['Build.SourceBranch'], 'refs/heads/main')] # runtime expression
+  runStep: false
 
 pool:
   vmImage: "ubuntu-20.04"  
@@ -39,3 +42,8 @@ jobs:
     - script: |
         echo $(M365User)
       displayName: Var from VarGrp
+    
+    - script: |
+        echo 'running this step'
+      displayName: Step with condition
+      condition: and(eq(variables[isMain]), eq(variables[runStep]))
