@@ -1,4 +1,4 @@
-# 01 Planning for DevOps
+# 01 Introduction to AzureDevOps
 
 [Azure DevOps Process Guidance](https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=basic-process)
 
@@ -10,7 +10,12 @@
 
 [Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 
-# Labs & Walkthroughs
+## Demos
+
+- Azure Boards and GitHub Issues
+- Using the Azure DevOps CLI
+
+## Labs & Walkthroughs
 
 [Choose an Agile approach to software development](https://docs.microsoft.com/en-us/learn/modules/choose-an-agile-approach/)
 
