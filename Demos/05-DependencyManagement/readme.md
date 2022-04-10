@@ -2,10 +2,8 @@
 
 Source Code is located at [https://github.com/arambazamba/az-400-dependencies](https://github.com/arambazamba/az-400-dependencies)
 
-- Show Package Repos: NuGet, npmjs, ...
-- Create a Package & Publish Package to Feed
-- Use the Package in a build
-- Semantic Versioning (optional)
+- Show Package Repos: NuGet, npmjs, ... and explain Semantic Versioning
+- Create a Package & Publish Package to Feed and consume it
 
 ## Additional Labs & Walkthroughs
 
