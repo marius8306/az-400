@@ -2,9 +2,11 @@
 
 [Azure DevOps Process Guidance](https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=basic-process)
 
-[Azure Boards documentation](https://docs.microsoft.com/en-us/azure/devops/boards/?view=azure-devops)
+[Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.1)
 
-[Github Project Management](https://github.com/features/project-management/)
+[Azure DevOps CLI Examples](https://docs.microsoft.com/en-us/azure/devops/cli/quick-reference?view=azure-devops)
+
+[Azure Boards documentation](https://docs.microsoft.com/en-us/azure/devops/boards/?view=azure-devops)
 
 [Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 
