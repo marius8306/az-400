@@ -18,16 +18,6 @@
 -   Configure a self hosted agent on an Azure Windows VM
 -   Implement & Use a Self-hosted Docker Agent using Azure Container Instances (optional)
 
-## Azure DevOps CLI
-
-[az devops](https://docs.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest)
-
-Install Azure DevOps Extension:
-
-```
-az extension add --name azure-devops
-```
-
 ## Extensions & Tools
 
 [Azure DevOps Pipelines - VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-azure-devops.azure-pipelines)
