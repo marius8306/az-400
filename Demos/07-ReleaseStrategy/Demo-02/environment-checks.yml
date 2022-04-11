@@ -1,8 +1,9 @@
-name: environments-gates
+name: intro-deplyoment
+
+trigger: none
 
 stages:
-- stage: build
-  displayName: Build
+- stage: Build
   jobs: 
   - job: build_job
     displayName: Mock build job
@@ -10,12 +11,21 @@ stages:
     - bash: echo 'mocking build'
       name: mockBuild
 
-- stage: deploy
-  displayName: Deploy  
+- stage: Test
+  dependsOn: []
+  jobs: 
+  - job: test_job
+    displayName: Mock test job
+    steps:
+    - bash: echo 'mocking testing'
+      name: mockTesting      
+
+- stage: DeployStaging
+  displayName: Staging Deploy  
   jobs:
-    -  deployment: DeployWeb
-       displayName: Mock deploy job
-       environment: Production
+    -  deployment:
+       displayName: Staging deploy job
+       environment: Staging
        strategy:
           runOnce:
             deploy:

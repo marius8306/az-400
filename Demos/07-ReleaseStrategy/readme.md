@@ -1,5 +1,16 @@
 # Realease Strategy
 
+## Demos
+
+- Designer based Release pipelin
+- Yaml based Deployment Jobs, Environments and Gates
+- Service Connections and its relation to App Registrations
+- Deployment with Stages inkluding Gates & Approvals
+- Node based Azure Function Deployment using yaml
+- Blue Green Deployment
+- Using Feature Toggles
+- Using Azure Functions as Custom Gates (optional)
+
 [Deployment Tasks](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/app-center-distribute?view=azure-devops)
 
 [Task Groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/task-groups?view=azure-devops)
@@ -24,16 +35,6 @@
 
 [Canary deployment strategy for Kubernetes deployments](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/kubernetes/canary-demo?view=azure-devops&tabs=yaml)
 
-
-## Demos
-
-- Service Connections and its relation to App Registrations
-    - Deployment with Stages inkluding Gates & Approvals
-- Yaml based Deployment Jobs, Environments and Gates
-- Node based Azure Function Deployment using yaml
-- Blue Green Deployment
-- Using Feature Toggles
-- Using Azure Functions as Custom Gates (optional)
 
 ## Extensions & Tools
 
