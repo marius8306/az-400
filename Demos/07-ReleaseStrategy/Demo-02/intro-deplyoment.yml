@@ -21,6 +21,9 @@ stages:
       name: mockTesting      
 
 - stage: DeployStaging
+  dependsOn:
+    - Build
+    - Test
   displayName: Staging Deploy  
   jobs:
     -  deployment:
