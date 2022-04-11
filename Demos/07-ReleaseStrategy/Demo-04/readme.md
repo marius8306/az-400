@@ -1,5 +1,6 @@
-# Blue Green Deployment
+# Node based Azure Function Deployment using yaml
 
-- Show Blue Green Pipeline
-- Show Blue Green Pipeline with Approval
-- Show Ring Deployment
+- Implement Typescript based DoDouble Function
+- Multistage Pipeline with build, provision and deployment
+
+Souce Code located at [https://github.com/arambazamba/az-funct-app-devops](https://github.com/arambazamba/az-funct-app-devops)
