@@ -28,7 +28,7 @@ stages:
   jobs:
     -  deployment:
        displayName: Staging deploy job
-       environment: Intro.Staging
+       environment: IntroStaging
        strategy:
           runOnce:
             deploy:
