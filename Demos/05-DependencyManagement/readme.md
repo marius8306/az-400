@@ -1,11 +1,7 @@
 # Dependency Management
 
-Source Code is located at [AZ-400-M09-AZ-Artifacts](https://github.com/arambazamba/AZ-400-M09-AZ-Artifacts)
-
-- Show Package Repos: NuGet, npmjs, ...
-- Create a Package & Publish Package to Feed
-- Use the Package in a build
-- Semantic Versioning (optional)
+- Show Package Repos: NuGet, npmjs, ... and explain Semantic Versioning
+- Create a Package & Publish Package to Feed and consume it
 
 ## Additional Labs & Walkthroughs
 
