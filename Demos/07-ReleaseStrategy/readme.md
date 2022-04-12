@@ -1,14 +1,17 @@
 # Realease Strategy
 
-[Deployment Tasks](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/app-center-distribute?view=azure-devops)
+## Demos
+
+- Designer based Release pipelin
+- Yaml based Deployment Jobs, Environments and Gates
+- Service Connections and App Registrations
+    - Using Managed Identity in Service Connections
+- Node based Azure Function Deployment using yaml
+- Blue Green Deployment
+- Using Feature Toggles
+- Using Azure Functions as Custom Gates (optional)
 
 [Task Groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/task-groups?view=azure-devops)
-
-[Release approvals and gates overview](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/approvals/?view=azure-devops)
-
-[Approval & Checks in Multistage Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass)
-
-[Create and target an Environment](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops)
 
 [Release Dashboards](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/overview?view=azure-devops)
 
@@ -24,16 +27,6 @@
 
 [Canary deployment strategy for Kubernetes deployments](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/kubernetes/canary-demo?view=azure-devops&tabs=yaml)
 
-
-## Demos
-
-- Service Connections and its relation to App Registrations
-    - Deployment with Stages inkluding Gates & Approvals
-- Yaml based Deployment Jobs, Environments and Gates
-- Node based Azure Function Deployment using yaml
-- Blue Green Deployment
-- Using Feature Toggles
-- Using Azure Functions as Custom Gates (optional)
 
 ## Extensions & Tools
 

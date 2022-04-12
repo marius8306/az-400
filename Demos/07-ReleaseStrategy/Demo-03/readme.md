@@ -1,6 +1,5 @@
-# Node based Azure Function Deployment using yaml
+# Service Connections and App Registrations
 
-- Implement Typescript based DoDouble Function
-- Multistage Pipeline with build, provision and deployment
+Execute `create-api.azcli` to create the App Service
 
-Souce Code located at [https://github.com/arambazamba/az-funct-app-devops](https://github.com/arambazamba/az-funct-app-devops)
+Use [api-build-deploy.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-deploy.yml)
