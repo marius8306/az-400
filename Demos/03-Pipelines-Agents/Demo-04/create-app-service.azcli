@@ -1,8 +1,8 @@
-rnd=$RANDOM
-grp=az400-m03-$rnd
+env=pipelines-agents
+grp=az400-m03-$env
 loc=westeurope
-appPlan=simpleapi-$rnd
-web=simpleapi-$rnd
+app=foodapi-$env-$RANDOM
+web=simpleapi-$env
 
 az group create -n $grp -l $loc
 az appservice plan create -n $appPlan -g $grp --sku FREE
