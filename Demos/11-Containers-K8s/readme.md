@@ -1,14 +1,12 @@
 # Containers & Kubernetes
 
-[Deploy Apps using Containers](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/build-image?view=azure-devops)
+[Build an image](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/build-image?view=azure-devops)
 
 [Caddy Server with automatic Https](https://caddyserver.com/)
 
 [Azure Kubernetes Services Docs](https://docs.microsoft.com/en-us/azure/aks/)
 
 [Configure a Pod to use a Config Map](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
-
-[Helm Docs](https://helm.sh/docs/)
 
 ## Demos
 
