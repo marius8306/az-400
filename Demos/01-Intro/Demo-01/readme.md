@@ -3,7 +3,9 @@
 Create two PAT tokens. One for Azure DevOps and on for GitHub and store them as secrets:
 
 - `ADO_PERSONAL_ACCESS_TOKEN` (repo permissions)
+  - Azure DevOps | User settings | Security | Personal access tokens
 - `GH_PERSONAL_ACCESS_TOKEN` (read / write)
+  - GitHub | Personal settings | Developer settings | Personal access tokens
 
 Add the following workflow in GitHub:
 
