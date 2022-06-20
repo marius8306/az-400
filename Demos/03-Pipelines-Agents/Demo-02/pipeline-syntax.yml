@@ -17,7 +17,7 @@ variables:
   value: somevarvalue
   
   # enable debugging
-  # System.Debug: true
+  System.Debug: true
 
 pool:
   vmImage: "ubuntu-latest"
