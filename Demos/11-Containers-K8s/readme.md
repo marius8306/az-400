@@ -15,8 +15,8 @@
 - Execute Build Task on Azure Container Registry
 - Deploy Angular UI to ACI using pipeline
 - Create AKS Cluster and deploy manually
-- Build an image and deploy it to a Kubernetes cluster using Azure DevOps pipelines
-- Helm Basics
+- Build an image and deploy it to a Kubernetes cluster using Azure DevOps pipelines - Optional
+- Helm Basics - Optional
 
 ## Additional Labs & Walkthroughs
 

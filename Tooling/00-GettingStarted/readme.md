@@ -16,7 +16,7 @@ To avoid problems with saved credentials I recommend using an alternate browser.
 - Configure Git on the Lab VM
 - Setup Git and Fork the class repo
 
-## Configure Git on the Lab VM
+## Configure Git on the Lab VM - Optional
 
 Set User and E-Mail in order to be able to commit to git:
 
