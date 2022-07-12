@@ -1,4 +1,4 @@
-name: "build-net-core-api-yaml"
+name: "build-simple-net-core-api-yaml"
 trigger:
   branches:
     include:
@@ -24,25 +24,21 @@ stages:
               version: "6.x"
 
           - task: DotNetCoreCLI@2
-            displayName: Build
+            displayName: dotnet build
             inputs:
               command: build
               projects: "**/*.csproj"
               arguments: "--configuration $(buildConfiguration)"
 
           - task: DotNetCoreCLI@2
+            displayName: dotnet publish
             inputs:
               command: "publish"
               publishWebProjects: true
               arguments: "--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)"
 
-          # - task: PublishBuildArtifacts@1
-          #   inputs:
-          #     PathtoPublish: "$(Build.ArtifactStagingDirectory)"
-          #     ArtifactName: "drop"
-          #     publishLocation: "Container"
-
           - task: PublishPipelineArtifact@1
             inputs:
-              artifactName: drop
-            displayName: "Publish Artifact: drop"
+              artifactName: yamldrop
+              targetPath: '$(Build.ArtifactStagingDirectory)'
+            displayName: "Publish Artifact: yamldrop"
