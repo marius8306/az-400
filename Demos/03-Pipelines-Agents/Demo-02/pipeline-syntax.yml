@@ -35,6 +35,7 @@ stages:
 
         steps:
           - task: Bash@3
+            displayName: stageA-jobA
             inputs:
               targetType: 'inline'
               script: echo 'Executing JobA'
