@@ -3,7 +3,7 @@ name: intro-deployment
 trigger: none
 
 stages:
-- stage: BuildTest
+- stage: Build
   jobs: 
   - job: build_job
     displayName: Mock build job
