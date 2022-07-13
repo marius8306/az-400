@@ -50,3 +50,18 @@ stages:
               steps:
               - script: echo 'mocking deployment staging'
                 name: mockDeployment
+
+- stage: DeployProd
+  dependsOn:
+    - DeployStaging
+  displayName: Prod Deploy  
+  jobs:
+    -  deployment:
+       displayName: Staging deploy job
+       environment: IntroStaging
+       strategy:
+          runOnce:
+            deploy:
+              steps:
+              - script: echo 'mocking deployment staging'
+                name: mockDeployment                
