@@ -51,7 +51,6 @@ code --install-extension msazurermtools.azurerm-vscode-tools
 npm install -g azurite
 
 # Install Angular
-npx @angular/cli@latest analytics off
 npm i -g @angular/cli
 
 # Finished Msg
