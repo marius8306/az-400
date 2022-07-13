@@ -1,8 +1,5 @@
 # Continous Deployment
 
-[Deployment Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
-
-
 ## Demos
 
 - Passing Vars between Stages
@@ -12,6 +9,10 @@
 - .NET 6 Unit Testing
 - Health Inspection
 - Database DevOps (optional)
+
+## Readings
+
+[Deployment Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
 
 ## Additional Labs & Walkthroughs
 
