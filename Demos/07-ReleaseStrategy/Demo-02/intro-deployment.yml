@@ -28,7 +28,7 @@ stages:
   jobs:
     -  deployment:
        displayName: Dev deploy job
-       environment: IntroDev
+       environment: DevEnv
        strategy:
           runOnce:
             deploy:
@@ -43,7 +43,7 @@ stages:
   jobs:
     -  deployment:
        displayName: Staging deploy job
-       environment: IntroStaging
+       environment: StagingEnv
        strategy:
           runOnce:
             deploy:
@@ -58,7 +58,7 @@ stages:
   jobs:
     -  deployment:
        displayName: Staging deploy job
-       environment: IntroStaging
+       environment: ProdEnv
        strategy:
           runOnce:
             deploy:
