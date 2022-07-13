@@ -3,7 +3,7 @@ name: intro-deployment
 trigger: none
 
 stages:
-- stage: BuildTest
+- stage: Build
   jobs: 
   - job: build_job
     displayName: Mock build job
@@ -28,7 +28,7 @@ stages:
   jobs:
     -  deployment:
        displayName: Dev deploy job
-       environment: IntroDev
+       environment: DevEnv
        strategy:
           runOnce:
             deploy:
@@ -43,10 +43,25 @@ stages:
   jobs:
     -  deployment:
        displayName: Staging deploy job
-       environment: IntroStaging
+       environment: StagingEnv
        strategy:
           runOnce:
             deploy:
               steps:
               - script: echo 'mocking deployment staging'
                 name: mockDeployment
+
+- stage: DeployProd
+  dependsOn:
+    - DeployStaging
+  displayName: Prod Deploy  
+  jobs:
+    -  deployment:
+       displayName: Staging deploy job
+       environment: ProdEnv
+       strategy:
+          runOnce:
+            deploy:
+              steps:
+              - script: echo 'mocking deployment staging'
+                name: mockDeployment                
