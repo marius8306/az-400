@@ -1,5 +1,7 @@
 # 01 Infrastructure and Configuration Azure Tools
 
+## Demos
+
 - Azure CLI
 - ARM Templates
 - Automation

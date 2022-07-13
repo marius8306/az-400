@@ -1,13 +1,5 @@
 # Implement & Manage Build Infrastructure
 
-[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
-
-[Azure Pipelines Ecosystem Support](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
-
-[Azure Pipelines agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
-
-[Azure virtual machine scale set agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents)
-
 ## Demos
 
 -   .Net Build Designer
@@ -17,6 +9,16 @@
 -   Use Github Service Connection
 -   Configure a self hosted agent on an Azure Windows VM
 -   Implement & Use a Self-hosted Docker Agent using Azure Container Instances (optional)
+
+## Readings
+
+[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
+
+[Azure Pipelines Ecosystem Support](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
+
+[Azure Pipelines agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
+
+[Azure virtual machine scale set agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents)
 
 ## Extensions & Tools
 

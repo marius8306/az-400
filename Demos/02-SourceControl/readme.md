@@ -1,7 +1,5 @@
 # Source Control & Git Enterprise
 
-[Git Documentation](https://git-scm.com/docs)
-
 ## Demos
 
 - Working with Git locally - Commit, Branching, Merging
@@ -19,6 +17,10 @@
   - Inner Source
 - Using Git LFS (optional)
 - Git Hooks & GitHub Events (optional)
+
+## Readings
+
+[Git Documentation](https://git-scm.com/docs)
 
 ## Extensions & Tools
 
