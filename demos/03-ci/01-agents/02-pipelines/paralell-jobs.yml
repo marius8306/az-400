@@ -11,6 +11,7 @@ stages:
 
   - job: CI
     displayName: Continous Integration
+    dependsOn: []
     
     steps:
     - bash: |
@@ -19,6 +20,7 @@ stages:
 
   - job: Test
     displayName: Testing
+    dependsOn: []
     
     steps: 
     - bash: |
