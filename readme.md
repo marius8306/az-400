@@ -1,17 +1,19 @@
 # AZ-400: Designing and Implementing Microsoft DevOps Solutions
 
+[![Board Status](https://dev.azure.com/integrations-training/5904f8c2-e18a-4e6f-93c1-ee1b55c4f7d3/f6bfffef-c17d-4b7b-bb82-9b4c4f283ca8/_apis/work/boardbadge/759866e9-4cd5-41e5-bf89-4ba022495e82?columnOptions=1)](https://dev.azure.com/integrations-training/5904f8c2-e18a-4e6f-93c1-ee1b55c4f7d3/_boards/board/t/f6bfffef-c17d-4b7b-bb82-9b4c4f283ca8/Issues/)
+
 Companion Material for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx) containing:
 
-- [Getting Started](./Tooling/00-GettingStarted)
-- [Requirements / Tooling](./Tooling)
-  - [Git & GitHub Basics](./Tooling/01-Github)
-  - [Visual Studio Code Intro](./Tooling/02-VSCode)
-  - [Document Repos using Markdown](./Tooling/03-Markdown)
-  - [Using Azure CLI](./Tooling/04-CLI)
-- [Instructor Demos](./Demos)
-- [Guided Scripts to setup an Azure hosted Development & Lab VM](./Setup)
-  - [Base Dev Environment Setup inkluding Visual Studio Code Extensions](./Setup/#basics)
-- [Labs](./Labs)
+- [Getting Started](./tooling/00-getting-started)
+- [Requirements / tooling](./tooling)
+  - [Git & GitHub Basics](./tooling/01-github)
+  - [Visual Studio Code Intro](./tooling/02-vs-code)
+  - [Document Repos using Markdown](./tooling/03-markdown)
+  - [Using Azure CLI](./tooling/04-cli)
+- [Instructor Demos](./demos)
+- [Guided Scripts to setup an Azure hosted Development & Lab VM](./setup)
+  - [Base Dev Environment Setup inkluding Visual Studio Code Extensions](./setup/#basics)
+- [Labs](./labs)
 
 > Note: Labs are taken from the official repo [AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)
 
