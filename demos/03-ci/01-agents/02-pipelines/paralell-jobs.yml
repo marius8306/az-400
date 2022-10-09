@@ -31,7 +31,7 @@ stages:
   
   jobs:
     - job: DeploymentJob
-      displayName: DeploymentJob
+      displayName: Deployment
      
       steps:
       - bash: |
