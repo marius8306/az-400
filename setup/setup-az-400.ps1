@@ -13,14 +13,11 @@ choco install git-lfs.install -y
 choco install gitversion.portable -y
 choco install dotnetcore-sdk -y
 choco install dotnet-6.0-sdk -y
-choco install nodejs --version=14.15.0 -y
+choco install nodejs --version=16.10.0 -y
 choco install azure-cli -y
 choco install azure-functions-core-tools-4 --params="'/x64:true'" -y
 choco install gh -y
 choco install curl -y
-choco install jdk8 -y
-choco install springtoolsuite -y
-choco install maven -y
 
 # Refresh Path Env for npm 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
@@ -46,12 +43,17 @@ code --install-extension ms-azuretools.vscode-azureterraform
 code --install-extension vs-publisher-1448185.keyoti-changeallendoflinesequence
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension msazurermtools.azurerm-vscode-tools
+code --install-extension ms-azuretools.vscode-bicep
+code --install-extension ms-azuretools.vscode-azurecontainerapps
 
 # Azurite Storage Emulator
 npm install -g azurite
 
 # Install Angular
 npm i -g @angular/cli
+
+# Http-Server
+npm i -g http-server
 
 # Finished Msg
 Write-Host "Finished Software installation" -ForegroundColor yellow
