@@ -11,7 +11,7 @@
 Create a .NET Core Api outside of this repo:
 
 ```
-dotnet new webapi -n SimpleApi
+dotnet new webapi -n simple-api
 ```
 
 Delete unused files:
@@ -63,5 +63,5 @@ dotnet watch run
 ```
 
 - Create a new DevOps Project `AZ-400-M04-AzurePipelines`
-- Get the default repo url - example: `https://YourOrg@dev.azure.com/YourOrg/AZ-400-M04-AzurePipelines/\_git/AZ-400-M04-AzurePipelines`
+- Get the default repo url - example: `https://dev.azure.com/<ORG>/AZ-400-M04-AzurePipelines/\_git/AZ-400-M04-AzurePipelines`
 - Upload your proj to this repo
