@@ -1,6 +1,6 @@
-# SharePoint Framework (SPFx) CI
+# Teams Tab using SharePoint Framework (SPFx) Continous Integration
 
-Uses SPFx Sample Repo [https://github.com/arambazamba/spfx-devops](https://github.com/arambazamba/spfx-devops)
+Uses SPFx Sample Repo [https://github.com/arambazamba/teams-devops](https://github.com/arambazamba/teams-devops)
 
 ## Scaffolding & Basics
 
@@ -26,4 +26,4 @@ gulp bundle
 gulp package-solution
 ```
 
-> Note: You might have to switch to node version 10.x
+Show `deploy/teams-ci.yml`
