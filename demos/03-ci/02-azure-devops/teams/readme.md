@@ -4,7 +4,7 @@ Uses SPFx Sample Repo [https://github.com/arambazamba/teams-devops](https://gith
 
 ## Scaffolding & Basics
 
-SPFx (SharePoint Framework) requires [Node 14+](https://nodejs.org/en/download/releases/), Yeoman, Gulp, SPFx Generator SharePoint
+SPFx (SharePoint Framework) requires [Node 16+](https://nodejs.org/en/download/releases/), Yeoman, Gulp, SPFx Generator SharePoint
 
 ```
 npm i -g yo gulp @microsoft/generator-sharepoint
