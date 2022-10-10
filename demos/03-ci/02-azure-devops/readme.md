@@ -3,10 +3,12 @@
 ## Demos
 
 - .NET MVC / WebApi Continuous Integration
-- Azure Function App
+- Azure Function App Continuous Integration
 - Angular Continuous Integration
-- SPFx using React Continuous Integration
+- Teams Tab with SPFx & React Continuous Integration
+- ...
 
+>Note: More CI Demos with other project types and stack will be added in the future.
 
 ## Readings
 
