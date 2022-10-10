@@ -8,9 +8,10 @@
 
 [NGINX](https://www.nginx.com/)
 
-## FoodApp
+## Demos
 
-[FoodApp Sample App](https://github.com/ARambazamba/FoodApp) - A .NET Core Api and Angular UI implemented as Cloud Native App with step by step Installation Scripts
+Demos are using [FoodApp Sample App](https://github.com/arambazamba/food-app) - A .NET Core Api and Angular UI implemented as Cloud Native App with step by step Installation Scripts
 
-- Build .NET WebApi -> FoodApi
-- Build Angular FrontEnd -> FoodUI
+- Build .NET WebApi -> `apps/catalog-api`
+
+- Build Angular FrontEnd -> `apps/shop-ui`

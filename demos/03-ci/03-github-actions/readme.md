@@ -5,7 +5,6 @@
 - Pipeline Basics
 - .NET MVC / WebApi Continuous Integration
 - Azure Static Web App with Angular UI Continuous Integration
-- SPFx Continuous Integration
 - GitHub Script Overview (optional)
 
 ## Readings

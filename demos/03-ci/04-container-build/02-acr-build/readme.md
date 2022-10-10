@@ -24,4 +24,4 @@ Explain Docker Service Connection:
 
 ![ac-arc](_images/sc-acr.png)
 
-Show pipeline [api-build-docker-img.yml](https://github.com/arambazamba/food-app/blob/master/az-pipelines/api-build-docker-img.yml)
+Show pipeline [catalog-ci-docker-img.yml](https://github.com/arambazamba/food-app/blob/master/deploy/az-pipelines/catalog-ci-docker-img.yml)

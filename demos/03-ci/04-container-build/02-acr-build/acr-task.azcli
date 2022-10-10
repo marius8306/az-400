@@ -1,6 +1,12 @@
-env=container
+env=dev
 loc=westeurope
 acr=foodacr$env
+grp=az400-food-$env
 
+az group create -n $grp -l westeurope
+
+az acr create -g $grp --name $acr --sku Basic
 az acr login --name $acr
-az acr build --image foodui:3.0.0 --registry $acr --file dockerfile .
+az acr update --name $acr --admin-enabled true
+
+az acr build --image food-shop-ui --registry $acr --file dockerfile .
