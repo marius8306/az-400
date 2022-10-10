@@ -1,15 +1,22 @@
-# .NET MVC CI
+# .NET MVC Continous Integration
 
-[.NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/)
+Samples are included in the .NET MVC repo available at [mvc-devops](https://github.com/arambazamba/mvc-devops)
 
-Manual Build:
+Install the [.NET SDK](https://dotnet.microsoft.com/download)
+
+Create project:
+
+```
+dotnet new mvc -n mvc-hello-world
+```
+
+Manual Steps:
 
 ```
 dotnet restore
 dotnet build
+dotnet test
 dotnet publish
 ```
 
-## Demos
-
-Show `NET Core Build Designer.json` and `mvc-build.yaml`
+Show `az-pipelines/mvc-ci.yml`

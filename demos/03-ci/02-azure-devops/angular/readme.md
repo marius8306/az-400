@@ -1,8 +1,10 @@
-# Angular Build
+# Angular Continous Integration
 
-Sample Angular repo available [here](https://github.com/arambazamba/simple-angular)
+Samples are included in the Angular repo available at [angular-devops](https://github.com/arambazamba/angular-devops)
 
-Requires [Node 14](https://nodejs.org/en/download/releases/) and Angular
+Requires [Node 16](https://nodejs.org/en/download/releases/) and Angular
+
+Manual Steps:
 
 ```
 npm i -g @angular/cli
@@ -22,4 +24,4 @@ npm i
 ng build -c production
 ```
 
-Show `Angular Build Designer.json` and `ng-build.yml`
+Show `deploy/angular-ci.yml`

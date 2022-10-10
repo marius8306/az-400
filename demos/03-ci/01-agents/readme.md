@@ -4,8 +4,9 @@
 
 -   .Net CI Designer
 -   Pipelines
--   .Net CI yaml
--   Configure a self hosted agent on an Azure Windows VM
+-   .Net CI Yaml
+-   Pipeline Resources
+-   Configure a self hosted agent on an Azure Windows VM (optional)
 -   Implement & Use a Self-hosted Docker Agent using Azure Container Instances (optional)
 
 ## Readings
