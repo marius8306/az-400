@@ -3,8 +3,9 @@
 ## Demos
 
 - Pipeline Basics
-- .NET MVC / WebApi Continuous Integration
-- Azure Static Web App with Angular UI Continuous Integration
+- Continuous Integration / Continous Deployment
+    - .NET MVC / WebApi Continuous Integration
+    - Azure Static Web App with Angular UI Continuous Integration
 - GitHub Script Overview (optional)
 
 ## Readings
@@ -12,8 +13,6 @@
 [GitHub Marketplace](https://github.com/marketplace)
 
 [GitHub Action Docs](https://docs.github.com/en/actions)
-
-[Events that trigger workflows](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows)
 
 ## Additional Labs & Walkthroughs
 

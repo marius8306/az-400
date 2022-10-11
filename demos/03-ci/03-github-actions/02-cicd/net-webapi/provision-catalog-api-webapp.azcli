@@ -1,8 +1,8 @@
-env=github-actions
-grp=az400-m08-github-actions
+env=dev
+grp=az400-github-actions-$env
 loc=westeurope
-appPlan=foodplan-$env
-app=foodapi-$env
+appPlan=foodplan-actions-$env
+app=catalogapi-$env
 
 az group create -n $grp -l $loc
 az appservice plan create -n $appPlan -g $grp --sku FREE
@@ -15,5 +15,5 @@ pwd=$(az webapp deployment list-publishing-profiles -g $grp -n $app --query [1].
 echo "Web Url: http://$app.azurewebsites.net"
 echo "Update your publishing Profile:"
 echo "PublishSiteName: $pubprofileapp"
-echo "UserName: $user"
+echo "UserName: $user"\
 echo "Password: $pwd"
