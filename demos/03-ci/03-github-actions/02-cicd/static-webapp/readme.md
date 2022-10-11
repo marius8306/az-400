@@ -7,6 +7,11 @@
 ## Demo
 
 - Create Static Web App using Azure Portal
-- Explain `azure-static-web-apps-*.yml`
 
-    ![static-wa.png](_images/static-wa.png)
+    ![static-wa.png](_images/create-static-wa.png)
+
+- Use the following Angular build details:
+
+    ![build-details.png](_images/build-details.png)
+
+- Explain the details of catalog-api-cicd.yml    
