@@ -10,6 +10,8 @@
 
     ![kv-perms](_images/kv-perms.png)
 
+- Assign Key Vault Permissions to App Registration    
+
 - Link a Variable group accessing the Key Vault variables
 
     ![kv-vars](_images/kv-vars.jpg)
