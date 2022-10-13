@@ -95,17 +95,30 @@ git checkout [name_of_your_branch]
 
 Merge Branch:
 
-```
+```bash
 git merge [branch_to_merge]
 ```
 
 > Note: You might have to switch to the branch that you might want to merge into befor executing merge
 
+List remote branches:
+
+```bash
+git fetch origin
+git branch -r
+```
+
+Checking out a specific remote branch that does not exist locally:
+
+```bash
+git checkout -b <designated-local-name> origin/<remote-branch-name>
+```
+
 ## Checkout specific Commits
 
 Get a spcific Commit:
 
-```
+```bash
 git checkout <sha1>
 ```
 
@@ -119,13 +132,13 @@ sha1:
 
 If you want to delete your changes associated with the detached HEAD:
 
-```
+```bash
 git checkout master
 ```
 
 If you want to keep the detached state save it into a new branch and continue from there:
 
-```
+```bash
 git branch save-detached-head
 ```
 
@@ -135,7 +148,7 @@ git branch save-detached-head
 
 Saving work befor switching the branch - alternative to stage and commit:
 
-```
+```bash
 git stash | git stash push
 ```
 
