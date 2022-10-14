@@ -4,11 +4,10 @@
 
 - Azure CLI
 - ARM Templates
+- Bicep
 - Automation
-- Bicep (optional)
-- Use Ansible to Provision in Azure
-- Terraform Interactive Use
-- Use Terraform in pipeline
+- Ansible (optional)
+- Terraform (optional)
 
 ## Additional Labs & Walkthroughs
 

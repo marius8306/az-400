@@ -5,5 +5,7 @@
 [Infrastructure Automation](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/infrastructure-automation)
 
 - Automation Account and Runbooks
-- Chocolatey
 - Desired State Configuration
+- Chocolatey (optional)
+- Ansible (optional)
+- Terraform (optional)
