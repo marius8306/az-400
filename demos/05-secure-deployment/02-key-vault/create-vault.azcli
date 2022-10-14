@@ -1,0 +1,32 @@
+env=$RANDOM
+loc=westeurope
+grp=az400-m05-deployment-patterns
+vault=armvault-$env
+
+az group create -n $grp -l $loc
+
+az keyvault create -l $loc -n $vault -g $grp --sku standard
+
+az keyvault secret set --vault-name $vault --name "m365user" --value "alexander.pajer@integrations.at"
+
+az keyvault secret set --vault-name $vault --name "m365pwd" --value "PW4vm@dmin123!$"
+
+az keyvault secret set --vault-name $vault --name "sqladmin" --value "sqladmin"
+
+az keyvault secret set --vault-name $vault --name "sqlpwd" --value "PW4vm@dmin123!$"
+
+az keyvault secret set --vault-name $vault --name "conSQLite" --value "Data Source=./food.db"
+
+az keyvault secret set --vault-name $vault --name "conSQLServer" --value "Data Source=mock-sql;Initial Catalog=food-db;Persist Security Info=True;User ID=sa;Password='TiTp4SQL@dmin'"
+
+kvid=$(az keyvault list -g $grp --query [0].id)
+
+secretid=$(az keyvault secret list --vault-name $vault --query "[? name=='sqlpwd'].id" -o tsv)
+
+echo "just to demonstrate a query for sqlpwd:" $secretid
+
+# Delete KV and purge it to permanently delete it
+# Do not execute
+
+az keyvault delete -n $vault
+az keyvault purge -n $vault

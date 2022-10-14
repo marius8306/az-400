@@ -1,0 +1,12 @@
+# you might want to supply a hardcoded random nbr to re-use the app service plan from deployment patterns
+# env=$RANDOM
+env=config
+loc=westeurope
+grp=az400-m05-deployment-patterns
+plan=deployment-patterns-$env
+app=catalog-api-$env
+
+# appservice
+az appservice plan create -n $plan -g $grp --sku FREE 
+az webapp create -n $app -g $grp --plan $plan --runtime "DOTNET|6.0"
+
