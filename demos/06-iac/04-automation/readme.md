@@ -7,5 +7,3 @@
 - Automation Account and Runbooks
 - Desired State Configuration
 - Chocolatey (optional)
-- Ansible (optional)
-- Terraform (optional)
