@@ -8,7 +8,7 @@
 
 ## Demos
 
-Source Code is located at [https://github.com/arambazamba/az-400-dependencies](https://github.com/arambazamba/az-400-dependencies)
+- Source Code is located at [https://github.com/arambazamba/az-400-dependencies](https://github.com/arambazamba/az-400-dependencies)
 
 - Explain Azure Artifacts
 - Checkout commit with tag `initial-project` and explaing the relation between the two projects in `food-api.csproj`
