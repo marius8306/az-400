@@ -4,7 +4,7 @@ on:
     types:
       [opened, edited, deleted, closed, reopened, labeled, unlabeled, assigned]
 jobs:
-  alert:
+  sync-issues:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub Issues to Azure DevOps
