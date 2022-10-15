@@ -1,7 +1,7 @@
 env=container
+grp=az400-m03-$env
 loc=westeurope
 acr=foodacr$env
-grp=az400-m03-$env
 
 az group create -n $grp -l westeurope
 
