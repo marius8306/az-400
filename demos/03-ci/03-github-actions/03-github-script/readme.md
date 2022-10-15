@@ -8,6 +8,6 @@
 
 ## Demo 
 
-- Explain GitHubs Script used in [FoodApp](https://github.com/arambazamba/food-app/actions/workflows/issue-processing.yml)
+- Explain GitHubs Script used in [food-app](https://github.com/arambazamba/food-app/actions/workflows/issue-processing.yml)
 
 ![github-script](_images/github-script.png)
