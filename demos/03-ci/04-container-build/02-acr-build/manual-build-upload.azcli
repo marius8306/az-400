@@ -1,4 +1,4 @@
-env=dev
+env=container
 loc=westeurope
 acr=foodacr$env
 grp=az400-food-$env
@@ -9,10 +9,6 @@ az group create -n $grp -l $loc
 az acr create -g $grp --name $acr --sku Basic
 az acr login --name $acr
 az acr update --name $acr --admin-enabled true
-# list availabe acr's - just for info
-az acr list --query "[].loginServer" -o tsv
-# show your acr pwd - just for info
-az acr credential show -n $acr --query "passwords[0].value" 
 
 # Tag img & upload to ACR
 docker tag food-shop-ui $acr.azurecr.io/food-shop-ui

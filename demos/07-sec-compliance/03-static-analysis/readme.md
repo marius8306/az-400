@@ -1,4 +1,4 @@
-# Software Composition Analysis
+# Static Analysis
 
 [Sonar Lint VS Code](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 

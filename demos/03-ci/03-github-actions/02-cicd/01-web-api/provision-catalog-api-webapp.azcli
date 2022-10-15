@@ -1,0 +1,19 @@
+env=github-actions
+grp=az400-m04-$env
+loc=westeurope
+appPlan=foodplan-$env
+app=catalog-api-$env
+
+az group create -n $grp -l $loc
+az appservice plan create -n $appPlan -g $grp --sku FREE
+az webapp create -n $app -g $grp --plan $appPlan --runtime "DOTNET|6.0"
+
+# get publishing profile metadata
+user=$(az webapp deployment list-publishing-profiles -g $grp -n $app --query [1].userName -o tsv)
+pwd=$(az webapp deployment list-publishing-profiles -g $grp -n $app --query [1].userPWD -o tsv)
+
+echo "Web Url: http://$app.azurewebsites.net"
+echo "Update your publishing Profile:"
+echo "PublishSiteName: $pubprofileapp"
+echo "UserName: $user"\
+echo "Password: $pwd"
