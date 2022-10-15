@@ -11,4 +11,3 @@ az acr update --name $acr --admin-enabled true
 
 cd food-shop-ui
 az acr build --image food-shop-ui --registry $acr --file dockerfile .
-..

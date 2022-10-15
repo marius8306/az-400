@@ -15,12 +15,12 @@ import {
 } from '@azure/msal-browser';
 import { Store } from '@ngrx/store';
 import { filter } from 'rxjs/operators';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../../environments/environment';
 import { MsalAuthResponse } from '../auth.model';
+import { MsalBroadcastServiceMock } from '../mocks/MsalBroadcastService.mock';
 import { loginSuccess, logout } from './auth.actions';
 import { MsalAuthState } from './auth.reducer';
 import { getUser, isAuthenticated } from './auth.selectors';
-import { MsalBroadcastServiceMock } from '../mocks/MsalBroadcastService.mock';
 
 @Injectable()
 export class MsalAuthFacade {
@@ -51,8 +51,7 @@ export class MsalAuthFacade {
         )
       )
       .subscribe((result: EventMessage) => {
-        let resp: MsalAuthResponse = result.payload as MsalAuthResponse;
-        this.store.dispatch(loginSuccess({ authResponse: resp }));
+        this.store.dispatch(loginSuccess({ authResponse: result.payload }));
         console.log(`MSAL Event ${result.eventType}`, result.payload);
       });
   };
