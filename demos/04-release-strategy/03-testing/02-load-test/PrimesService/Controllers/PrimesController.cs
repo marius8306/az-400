@@ -14,12 +14,12 @@ namespace PrimesService.Controllers
         {
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            var count = PrimeCount(n);
+            var count = getPrimesCount(n);
             watch.Stop();
             return Ok($"Primes - {count}, Time Taken - {watch.ElapsedMilliseconds}ms, Instance Id - {Environment.GetEnvironmentVariable("WEBSITE_INSTANCE_ID")}");
         }
 
-        public static int PrimeCount(int lessThanN)
+        public static int getPrimesCount(int lessThanN)
         {
             Func<int, bool> isPrime = new Func<int, bool>((n) =>
             {
@@ -30,8 +30,6 @@ namespace PrimesService.Controllers
                     if (n % i == 0)
                     {
                         return false;
-                        //flag = 1;
-                        //break;
                     }
                 }
                 return flag == 0;
