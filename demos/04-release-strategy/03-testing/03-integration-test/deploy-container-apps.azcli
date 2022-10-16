@@ -1,0 +1,21 @@
+env=integration-tests
+grp=az204-m04-$env
+loc=westeurope
+containerEnv=foodapp-$env
+api=food-catalog-api
+ui=food-shop-ui
+apiimg=arambazamba/food-catalog-api:latest
+uiimg=arambazamba/food-shop-ui:latest
+
+az group create -n $grp --l $loc
+
+az containerapp env create -n $containerEnv -g $grp -l $loc
+
+az containerapp create -n $api -g $grp --image $apiimg --environment $containerEnv --image $img --target-port 80 --ingress internal
+
+# Get the internal ingress url
+apiurl=$(az containerapp show -n $api -g $grp --query "properties.configuration.ingress.fqdn" -o tsv) 
+
+echo $apiurl
+
+az containerapp create -n $ui -g $grp --image $uiimg --environment $containerEnv --image $img --target-port 80 --ingress external --env-vars 'ENV_API_URL=https://'$apiurl'/'
