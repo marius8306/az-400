@@ -1,0 +1,12 @@
+env=load-test
+grp=az204-m04-$env
+loc=westeurope
+containerEnv=primes-$env
+containerApp=primes-api
+img=arambazamba/primesservice
+
+az group create -n $grp --l $loc
+
+az containerapp env create -n $containerEnv -g $grp -l $loc
+
+az containerapp create -n $containerApp -g $grp --image $img --environment $containerEnv --image $img --target-port 80 --ingress external
