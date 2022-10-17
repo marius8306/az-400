@@ -1,4 +1,4 @@
-# Azure Board 
+# Azure Boards
 
 [Azure Boards](https://github.com/marketplace/azure-boards)
 
