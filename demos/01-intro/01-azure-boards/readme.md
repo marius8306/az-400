@@ -2,6 +2,8 @@
 
 [Azure Boards](https://github.com/marketplace/azure-boards)
 
+[Azure Boards Glossary](https://learn.microsoft.com/en-us/azure/devops/project/navigation/glossary?view=azure-devops)
+
 [Connect Azure Boards to GitHub](https://learn.microsoft.com/en-us/azure/devops/boards/github/connect-to-github?view=azure-devops)
 
 ## Setup Connection using GitHub App
