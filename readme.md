@@ -26,8 +26,6 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
 
 - [Github User Account](https://github.com/)
 
-- [Azure DevOps Organization](https://dev.azure.com/)
-
 - Azure Subscription:
 
   Please do not use a Production Account for Training
@@ -35,6 +33,8 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
   - Using [Azure Passes](https://www.microsoftazurepass.com/)
   - Azure Paid / Sponsored Subscription
   - [Azure Trial Subscription](https://azure.microsoft.com/en-us/free/)
+
+- [Azure DevOps Organization](https://dev.azure.com/)
 
   >Note: The Azure DevOps Organization and the Azrue Subscription should be created using the same account
 
