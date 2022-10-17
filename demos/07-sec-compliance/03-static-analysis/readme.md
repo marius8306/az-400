@@ -1,6 +1,6 @@
 # Static Analysis using Sonar Cloud
 
-Sample uses `api-sonarcloud.yml` from [FoodApp](https://github.com/ARambazamba/foodapp)
+Sample uses `catalog-api-sonarcloud.yml` from [Food App](https://github.com/arambazamba/food-app)
 
 Get Token for Service Connection:
 
