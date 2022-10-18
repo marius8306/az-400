@@ -22,3 +22,6 @@
 
 [Build and release retention policies](https://learn.microsoft.com/en-us/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml)
 
+## Additional Labs & Walkthroughs
+
+[Create a build pipeline with Azure Pipelines](https://learn.microsoft.com/en-us/training/modules/create-a-build-pipeline/?ns-enrollment-type=learningpath&ns-enrollment-id=learn.az-400-define-implement-continuous-integration)
