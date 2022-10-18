@@ -1,8 +1,7 @@
 ## Azure CLI
 
-- Simple Azure CLI Script
-- Use Azure CLI Task in Pipeline Designer
-- Using Arguments in CLI Task
+- Azure CLI Script
+- Using Azure CLI Task in pipeline
 
 ## Readings
 
