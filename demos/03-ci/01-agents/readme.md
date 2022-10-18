@@ -11,13 +11,13 @@
 
 ## Readings
 
-[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
+[Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
 
-[Azure Pipelines Ecosystem Support](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
+[Azure Pipelines Ecosystem Support](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
 
-[Azure Pipelines agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
+[Azure Pipelines agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
 
-[Azure virtual machine scale set agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents)
+[Azure virtual machine scale set agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents)
 
 ## Extensions & Tools
 
@@ -29,11 +29,11 @@
 
 ## Additional Labs & Walkthroughs
 
-[Create a build pipeline with Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/create-a-build-pipeline/)
+[Create a build pipeline with Azure Pipelines](https://learn.microsoft.com/en-us/learn/modules/create-a-build-pipeline/)
 
-[Host your own build agent in Azure Pipelines](https://docs.microsoft.com/en-us/learn/modules/host-build-agent/)
+[Host your own build agent in Azure Pipelines](https://learn.microsoft.com/en-us/learn/modules/host-build-agent/)
 
-[Describe pipelines and concurrency](https://docs.microsoft.com/en-us/learn/modules/describe-pipelines-concurrency/)
+[Describe pipelines and concurrency](https://learn.microsoft.com/en-us/learn/modules/describe-pipelines-concurrency/)
 
 [Azure DevOps Labs - Integrate Your GitHub Projects With Azure Pipelines](https://www.azuredevopslabs.com/labs/azuredevops/github-integration/)
 
