@@ -53,7 +53,7 @@ stages:
 
   - stage: stageB    
     # pool:
-    #   vmImage: "ubuntu-latest"
+    #   vmImage: "ubuntu-latest"  
 
     jobs:
       - job: stageBJobA
