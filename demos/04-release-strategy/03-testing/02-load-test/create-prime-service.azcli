@@ -1,5 +1,5 @@
 env=load-test
-grp=az204-m04-$env
+grp=az400-m04-$env
 loc=westeurope
 containerEnv=primes-$env
 containerApp=primes-api
