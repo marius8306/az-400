@@ -1,6 +1,7 @@
 name: paralell-jobs
 
 trigger: none
+pr: none
 
 stages:
 

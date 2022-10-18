@@ -1,5 +1,5 @@
-env=container
-grp=az400-m03-$env
+env=e2e-test
+grp=az400-m04-$env
 loc=westeurope
 api=arambazamba/food-catalog-api:latest
 ui=arambazamba/food-shop-ui:latest
