@@ -1,6 +1,6 @@
 # you might want to supply a hardcoded random nbr to re-use the app service plan from deployment patterns
 # env=$RANDOM
-env=11246
+env=18760
 loc=westeurope
 grp=az400-m05-deployment-patterns
 cfg=foodconfig-$env
@@ -11,8 +11,13 @@ az group create -n $grp -l $loc
 # create appconfig and add a value
 az appconfig create -g $grp -n $cfg -l $loc --sku free
 az appconfig kv set -n $cfg --key "App:Title" --value "Fancy Food App Dev" -y
-az appconfig kv set -n $cfg --key "App:Title" --value "Fancy Food App" -y --label production
 az appconfig kv set -n $cfg --key "App:Title" --value "Fancy Food App Staging" -y --label staging
+az appconfig kv set -n $cfg --key "App:Title" --value "Fancy Food App" -y --label production
+
+# auth settings
+az appconfig kv set -n $cfg --key "App:AuthEnabled" --value false -y
+az appconfig kv set -n $cfg --key "App:AuthEnabled" --value true -y --label staging
+az appconfig kv set -n $cfg --key "App:AuthEnabled" --value true -y --label production
 
 # key-vault binding
 az appconfig identity assign -g $grp -n $cfg
@@ -24,8 +29,8 @@ az keyvault set-policy -n $vault --object-id $cfgmi --secret-permissions get lis
 # az ad sp create-for-rbac -n $principal --sdk-auth
 # az keyvault set-policy -n $vault --spn $principal --secret-permissions get list set
 
-az appconfig kv set-keyvault -n $cfg --key "App:ConnectionString:SQLiteDBConnection" --secret-identifier "https://$vault.vault.azure.net/Secrets/conSQLite" -y
-az appconfig kv set-keyvault -n $cfg --key "App:ConnectionString:SQLServerConnection" --secret-identifier "https://$vault.vault.azure.net/Secrets/conSQLServer" -y
+# az appconfig kv set-keyvault -n $cfg --key "App:ConnectionString:SQLiteDBConnection" --secret-identifier "https://$vault.vault.azure.net/Secrets/conSQLite" -y
+# az appconfig kv set-keyvault -n $cfg --key "App:ConnectionString:SQLServerConnection" --secret-identifier "https://$vault.vault.azure.net/Secrets/conSQLServer" -y
 
 # create a feature flag and turn it on
 

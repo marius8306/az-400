@@ -1,6 +1,6 @@
 # you might want to supply a hardcoded random nbr to re-use the app service plan from deployment patterns
 # env=$RANDOM
-env=28416
+env=18760
 loc=westeurope
 grp=az400-m05-deployment-patterns
 plan=deployment-patterns-$env
