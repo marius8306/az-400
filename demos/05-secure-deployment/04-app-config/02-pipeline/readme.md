@@ -2,4 +2,4 @@
 
 Sample uses [Food App](https://github.com/arambazamba/food-app)
 
-- Explain catalog-api-build-provision-app-config.yml
+- Explain catalog-api-cicd-appcfg.yaml

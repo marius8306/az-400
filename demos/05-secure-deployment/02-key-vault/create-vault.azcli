@@ -1,7 +1,7 @@
 env=$RANDOM
 loc=westeurope
 grp=az400-m05-deployment-patterns
-vault=armvault-$env
+vault=deployment-vault-$env
 
 az group create -n $grp -l $loc
 
