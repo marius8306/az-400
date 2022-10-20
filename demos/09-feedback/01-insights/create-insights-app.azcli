@@ -14,6 +14,6 @@ az monitor app-insights component create --app $ai --location $loc --kind web -g
 
 aikey=$(az monitor app-insights component show --app $ai -g $grp --query instrumentationKey -o tsv)                                    
 
-az container create -g $grp -l $loc -n food-catalog-api --image $api --cpu 1 --memory 1 --dns-name-label food-catalog-api-$env --port 80 --environment-variables "ApplicationInsights:ConnectionString"="http://food-catalog-api-$env.westeurope.azurecontainer.io/" --no-wait
+az container create -g $grp -l $loc -n food-catalog-api --image $api --cpu 1 --memory 1 --dns-name-label food-catalog-api-$env --port 80 --environment-variables "ApplicationInsights__ConnectionString"="<CON_STRING>" --no-wait
 
 az container create -g $grp -l $loc -n food-shop-ui --image $ui --cpu 1 --memory 1 --dns-name-label food-shop-ui-$env --port 80 --environment-variables ENV_API_URL="http://food-catalog-api-$env.westeurope.azurecontainer.io/" ENV_APP_INSIGHTS=$aikey --no-wait
