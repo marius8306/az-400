@@ -2,22 +2,19 @@
 
 ## Demos
 
--   .Net CI Designer
--   Pipelines
--   .Net CI Yaml
+-   CI using designer pipelines
+-   CI using yaml pipelines
+-   Pipelines & YAML: basics, expressions & conditions, variabes, triggers
 -   Pipeline Resources
--   Configure a self hosted agent on an Azure Windows VM (optional)
--   Implement & Use a Self-hosted Docker Agent using Azure Container Instances (optional)
+-   Implementing Custom Agents
+    -   Configure a self hosted agent on an Azure Windows VM (optional)
+    -   Implement & Use a self-hosted Docker Agent using Azure Container Instances (optional)
 
 ## Readings
 
 [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
 
 [Azure Pipelines Ecosystem Support](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/ecosystems?view=azure-devops)
-
-[Azure Pipelines agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser)
-
-[Azure virtual machine scale set agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents)
 
 ## Extensions & Tools
 

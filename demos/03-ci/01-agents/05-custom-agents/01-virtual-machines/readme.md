@@ -1,6 +1,6 @@
 # Configure a self hosted agent on an Azure Windows VM
 
-[Microsoft hosted Agents Software Inventory](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml)
+
 
 [Self-hosted Windows agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops)
 
