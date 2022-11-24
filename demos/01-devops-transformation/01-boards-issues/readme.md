@@ -26,6 +26,7 @@
 - GitHub Actions: Use sync issues action
 - Create an Issue from within VS Code 
 
+---
 ### Connect Azure Boards and GitHub Issues
 
 There are two options to connect Azure Boards and GitHub Issues:
@@ -54,6 +55,7 @@ Create two PAT tokens. One for Azure DevOps and on for GitHub and store them as 
   - GitHub | Personal settings | Developer settings | Personal access tokens
   - read / write
 
+---
 ### GitHub Actions: Use sync issues action
 
 - On the GitHub marketplace search for these extensions: 
@@ -102,6 +104,9 @@ Create two PAT tokens. One for Azure DevOps and on for GitHub and store them as 
             ado_bypassrules: true
             log_level: 100
   ```
+
+---
+### Create an Issue from within VS Code
 
 - Install the [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) Extension in VS Code and add an issue using F1 and `Create Issue From Selection`.
 
