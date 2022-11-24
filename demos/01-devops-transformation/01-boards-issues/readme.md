@@ -10,7 +10,13 @@
 
 ## Tools and Extensions
 
-[Azure Boards](https://github.com/marketplace/azure-boards)
+[GitHub Azure Boards App](https://github.com/marketplace/azure-boards)
+
+[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
+[GitHub Actions: Issues to Azure DevOps](https://github.com/marketplace/actions/github-issues-to-azure-devops).
+
+[Sync Pull Requests to Azure Boards](https://github.com/marketplace/actions/sync-pull-requests-to-azure-boards)
 
 ## Demos
 
