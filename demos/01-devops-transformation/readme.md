@@ -1,8 +1,8 @@
-# 01 Introduction to AzureDevOps
+# 01 Planning for DevOps Transformation
 
 ## Demos
 
-1. Azure Boards and GitHub Issues
+1. Planning with Azure Boards and GitHub Issues
 2. Using the Azure DevOps CLI
 3. Git Basics: Working with Git locally - Commit, Branching, Merging
 
@@ -11,8 +11,6 @@
 [Azure DevOps Process Guidance](https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=basic-process)
 
 [Azure DevOps Services REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.1)
-
-[Azure Boards documentation](https://docs.microsoft.com/en-us/azure/devops/boards/?view=azure-devops)
 
 [Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
 

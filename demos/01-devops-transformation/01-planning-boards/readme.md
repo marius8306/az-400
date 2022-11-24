@@ -1,12 +1,30 @@
-# Azure Boards
+# Planning using Boards and Issues
 
-[Azure Boards](https://github.com/marketplace/azure-boards)
+## Readings
+
+[Azure Boards documentation](https://docs.microsoft.com/en-us/azure/devops/boards/?view=azure-devops)
 
 [Azure Boards Glossary](https://learn.microsoft.com/en-us/azure/devops/project/navigation/glossary?view=azure-devops)
 
 [Connect Azure Boards to GitHub](https://learn.microsoft.com/en-us/azure/devops/boards/github/connect-to-github?view=azure-devops)
 
-## Setup Connection using GitHub App
+## Tools and Extensions
+
+[Azure Boards](https://github.com/marketplace/azure-boards)
+
+## Demos
+
+- Connect Azure Boards and GitHub Issues
+- Add Status Badge to README.md using the boards settings
+- Add a work item in ADO Boards and note the Task ID. Make some code changed in the cloned repo and commit the changes using the `AB#<TASK_ID>` notation in the commit message.
+- GitHub Actions: Use sync issues action
+- Create an Issue from within VS Code 
+
+### Connect Azure Boards and GitHub Issues
+
+There are two options to connect Azure Boards and GitHub Issues:
+
+#### Setup Connection using GitHub App
 
 - In Azure DevOps, navigate to the project settings and add a new GitHub connection to your GitHub repo.
 
@@ -18,7 +36,7 @@ or
 
 - Select the organization and the project.
 
-## Setup Connection using  PAT Tokens
+#### Setup Connection using  PAT Tokens
 
 Create two PAT tokens. One for Azure DevOps and on for GitHub and store them as secrets:
 
@@ -30,14 +48,7 @@ Create two PAT tokens. One for Azure DevOps and on for GitHub and store them as 
   - GitHub | Personal settings | Developer settings | Personal access tokens
   - read / write
 
-## Demo
-
-- Add Status Badge to README.md using the boards settings
-
-- Add a work item in ADO Boards and note the Task ID. Make some code changed in the cloned repo and commit the changes using the AB#<TASK_ID> notation in the commit message.
-
-
-### Use sync issues action
+### GitHub Actions: Use sync issues action
 
 - On the GitHub marketplace search for these extensions: 
 
