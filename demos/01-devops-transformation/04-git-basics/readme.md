@@ -7,10 +7,6 @@
 
 [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-## Readings
-
-[Import repositories from TFVC to Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-TFVC?view=azure-devops)
-
 ## Demos 
 
 1. Demonstrate basic Git commands

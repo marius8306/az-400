@@ -1,4 +1,4 @@
-# Planning using Boards and Issues
+# Plan Agile with GitHub Projects and Azure Boards
 
 ## Readings
 
