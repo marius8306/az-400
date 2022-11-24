@@ -6,6 +6,10 @@
 
 [Handling Merge Conflicts in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts)
 
+## GitHub Flow
+
+![gitflow](_images/github-flow.jpg)
+
 ## Git-Flow
 
 ![gitflow](_images/gitflow.png)
@@ -47,7 +51,3 @@ Finish a release:
 ```
 git flow release finish  RELEASE
 ```
-
-## GitHub Flow
-
-![gitflow](_images/github-flow.jpg)

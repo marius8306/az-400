@@ -1,8 +1,13 @@
 # Git Basics
+## Extensions & Tools
 
 [Git Bash Download](https://git-scm.com/downloads)
 
 [Git Graph VS Code](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+[Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
+## Readings
 
 [Import repositories from TFVC to Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-TFVC?view=azure-devops)
 
@@ -148,7 +153,7 @@ git checkout master
 If you want to keep the detached state save it into a new branch and continue from there:
 
 ```
-git branch save-detached-head
+git branch branch-name
 ```
 
 > Note: You will have to switch to the branch you saved to afterwards
