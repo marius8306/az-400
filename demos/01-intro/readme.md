@@ -4,7 +4,7 @@
 
 1. Azure Boards and GitHub Issues
 2. Using the Azure DevOps CLI
-3. Git Basics
+3. Git Basics: Working with Git locally - Commit, Branching, Merging
 
 ## Readings
 
