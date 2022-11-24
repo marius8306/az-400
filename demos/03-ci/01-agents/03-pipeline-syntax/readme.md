@@ -1,4 +1,4 @@
-# Pipeline YAML Basics
+# Pipelines & YAML: basics, expressions & conditions, variabes, triggers
 
 ![key-concepts-overview](_images/key-concepts-overview.svg)
 
@@ -6,9 +6,9 @@
 
 1. Basic Pipeline Syntax: `base-syntax.yml`
 2. Conditions: `conditions-expressions.yml`
-3. Variables Scopes: `variables-scopes.yml`
-4. Build status, timeouts & badges
-5. Triggers: `triggers.yml`
+3. Variables & Scopes: `variables-scopes.yml`
+4. Triggers: `triggers.yml`
+5. Build status, timeouts & badges
 
 ## Readings
 
