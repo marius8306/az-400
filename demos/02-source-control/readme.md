@@ -2,15 +2,15 @@
 
 ## Demos
 
-1. - Working with Git locally - Commit, Branching, Merging
-2. - Repo Structure: Mulitple Repos vs Monorepo
-3. - Branching Types: GitFlow, GitHubFlow
-5. - Pull Requests & Branch Protection
+1. - Repo Structure: Mulitple Repos vs Monorepo
+2. - Branching Types: GitFlow, GitHubFlow
+3. - Pull Requests & Branch Protection
     1. - Azrue Devops Protection Policy
     2. - Show Git Branch Protection Policy
-6. Forking Workflow & Inner Source
-7. - Using Git LFS (optional)
-8. - Git Hooks & GitHub Events (optional)
+4. Branch Protection
+4. Forking Workflow & Inner Source
+5. - Using Git LFS (optional)
+6. - Git Hooks & GitHub Events (optional)
 
 ## Readings
 
