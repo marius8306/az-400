@@ -1,6 +1,10 @@
 # Implement & Use a Self-hosted Docker Agent
 
+## Readings
+
 [Run a self-hosted agent in Docker](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops)
+
+[Authenticate with Azure Container Registry from Azure Container Instances](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-auth-aci)
 
 ## Demos
 
@@ -11,10 +15,6 @@
 
 - [Self hosted Docker Linux Agent](./linux-agent)
 - [Self hosted Docker Windows Agent](./win-agent)
-
-[Run a self-hosted agent in Docker](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops)
-
-[Authenticate with Azure Container Registry from Azure Container Instances](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-auth-aci)
 
 [Microsoft Hosted Agents Software Inventory](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml) gives you a starting point for software installed on Azure-hosted-agents
 
@@ -52,7 +52,7 @@ steps:
 
 #### .NET Core Test
 
-Test a .NET 5 Build from [MVC-DevOps](https://github.com/arambazamba/mvc-devops) using `./agent-tests/test-agent-net.yml`
+Test a .NET 6 Build from [MVC-DevOps](https://github.com/arambazamba/mvc-devops) using `./agent-tests/test-agent-net.yml`
 
 To reference you custom pool in yaml use [pool](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser#choosing-a-pool-and-agent-in-your-pipeline)
 
