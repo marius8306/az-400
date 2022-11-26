@@ -19,4 +19,5 @@ stages:
     - bash: |
         echo "node-version:"
         echo $(node-version)
-      name: outputNodeVersion
+      name: nodeversion
+      displayName: Output Node Version
