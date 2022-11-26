@@ -2,6 +2,7 @@
 
 - Configure a self hosted agent on an Azure Windows VM (optional)
 - Implement & Use a self-hosted Docker Agent using Azure Container Instances (optional)
+- Test the agent
 
 ## Readings
 
