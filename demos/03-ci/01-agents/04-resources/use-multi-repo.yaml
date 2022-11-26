@@ -1,0 +1,19 @@
+name: pipeline-ressources-multi-repo
+
+trigger: none
+pr: none
+
+stages:
+
+- stage: OutputVars
+
+  jobs: 
+
+  - job: ConsumeVars
+    dependsOn: []
+    
+    steps:
+
+    - checkout: git://az-400/simple-api
+
+    - script: ls

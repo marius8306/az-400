@@ -4,10 +4,10 @@
 
 ## Demos 
 
- - Variable Groups
- - Pipelines
+ - Create and use variable groups in Azure Pipelines
+ - Use mulitple repos in a pipeline
 
-## Create a variable group
+## Create and use variable groups in Azure Pipelines
 
 Execute `create-variable-group.azcli`:
 
@@ -16,3 +16,6 @@ az pipelines variable-group create --name az400-variables --variables node-versi
 ```
 
 Examine in Azure DevOps and use in pipeline `use-var-grp.yml`:
+
+## Use mulitple repos in a pipeline
+
