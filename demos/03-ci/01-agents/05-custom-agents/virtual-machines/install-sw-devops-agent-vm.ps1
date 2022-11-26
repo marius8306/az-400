@@ -32,5 +32,5 @@ refreshenv
 
 # Node based toools
 npx @angular/cli@latest analytics off
-npm i -g @angular/cli
+npm i -g @angular/cli@14
 npm i -g gulp

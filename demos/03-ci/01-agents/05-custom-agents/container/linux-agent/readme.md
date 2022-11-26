@@ -13,7 +13,7 @@ The dockerfile basically executes these steps:
 - Execute default software installation from extracted `vstsagentpackage-xxx` using `start.sh` which executes `run.sh`
 - Add custom software using optional installer scripts
 
-The dockerfile contains the `AGENT_VERSION` which is `2.185.1` in this case. You can get the current version from the [azure-pipelines-agen](https://github.com/Microsoft/azure-pipelines-agent/releases) repo. 
+The dockerfile contains the `AGENT_VERSION` which is `2.185.1` in this case. You can get the current version from the [azure-pipelines-agent](https://github.com/Microsoft/azure-pipelines-agent/releases) repo. 
 
 ```bash
 ARG TARGETARCH=amd64
