@@ -1,35 +1,14 @@
-# Implement & Use a Self-hosted Docker Agent
-
-## Readings
-
-[Run a self-hosted agent in Docker](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops)
-
-[Authenticate with Azure Container Registry from Azure Container Instances](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-auth-aci)
-
-## Demos
-
-- Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
-- Test your Agents with a variety of workloads
-
-### Implement & Use a Self-hosted Docker Agent hosted on Azure Container Instances
-
-- [Self hosted Docker Linux Agent](./linux-agent)
-- [Self hosted Docker Windows Agent](./win-agent)
-
-[Microsoft Hosted Agents Software Inventory](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml) gives you a starting point for software installed on Azure-hosted-agents
-
-![inventory](_images/inventory.png)
+# Test your Agents with a variety of workloads
 
 To use your custom agent you could use:
 
 ```yaml
 pool:
-    name: selfhosted
+    name: win-selfhosted
 ```
 
-### Test your Agents with a variety of workloads
 
-#### Functional Test
+## Functional Test
 
 Simple Agent Test `./agent-tests/test-agent.yml`:
 
@@ -38,7 +17,7 @@ trigger:
     - main
 
 pool:
-    name: selfhosted
+    name: win-selfhosted
 
 steps:
     - script: echo Hello, world!
@@ -50,7 +29,7 @@ steps:
       displayName: "Run a multi-line script"
 ```
 
-#### .NET Core Test
+## .NET Core Test
 
 Test a .NET 6 Build from [MVC-DevOps](https://github.com/arambazamba/mvc-devops) using `./agent-tests/test-agent-net.yml`
 
@@ -64,10 +43,29 @@ trigger:
       - master
 
 pool:
-    name: selfhosted
+    name: win-selfhosted
 ```
 
-#### Microsoft 365 Stack Test
+## Angular Test
+
+Test an Angular Build from [Angular-DevOps](https://github.com/arambazamba/angular-devops) using `./deploy/agent-test.yml`
+
+```
+trigger:
+  branches:
+    include:
+    - master
+  
+stages:
+- stage: build
+
+  jobs:
+    - job: Job
+      pool:
+        name: win-selfhosted
+```
+
+## Microsoft 365 Stack Test
 
 This sample is using `./agent-tests/test-agent-spfx.yml` [https://github.com/arambazamba/spfx-devops](https://github.com/arambazamba/spfx-devops/blob/main/az-pipelines/test-agent-spfx.yml)
 
