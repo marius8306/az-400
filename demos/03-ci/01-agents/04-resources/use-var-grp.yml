@@ -3,6 +3,9 @@ name: pipeline-ressources-var-grps
 trigger: none
 pr: none
 
+variables:
+- group: az400-variables
+
 stages:
 
 - stage: OutputVars
