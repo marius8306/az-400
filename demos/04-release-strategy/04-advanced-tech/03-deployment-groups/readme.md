@@ -1,4 +1,4 @@
-# Deployment - Getting started
+# Using Deployment Groups to deploy to IIS
 
 [Provision deployment groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs?view=azure-devops)
 
@@ -48,6 +48,6 @@ Check the agent:
 
 ![check-targets](_images/check-targets.png)
 
-Import `api-build-deploy-iis.yaml` adjust variables and execute pipeline:
+Import `catalog-api-build-deploy-iis.yaml` adjust variables and execute pipeline:
 
 ![pipeline](_images/pipeline.png)
