@@ -2,14 +2,17 @@
 
 [About resources for Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/about-resources?view=azure-devops&tabs=yaml)
 
+## Demos 
 
-| Resource | How is it consumed? | How do you prevent an unintended pipeline from using this? |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [service connections](../library/service-endpoints.md)| Consumed by tasks in a YAML file that use the service connection as an input. | Protected with checks and pipeline permissions. Checks and pipeline permissions are controlled by service connection users. A resource owner can control which pipelines can access a service connection. You can also use pipeline permissions to restrict access to particular YAML pipelines and all classic pipelines. |
-| [secret variables in variable groups](../library/variable-groups.md) | A special syntax exists for using variable groups in a pipeline or in a job. A variable group gets added like a service connection. | Protected with checks and pipeline permissions. Checks and pipeline permissions are controlled by variable group users. A resource owner can control which pipelines can access a variable group. You can also use pipeline permissions to restrict access to particular YAML pipelines and all classic pipelines. |
-| [secure files](../library/secure-files.md) | Secure files are consumed by tasks (example: [Download Secure File task](../tasks/utility/download-secure-file.md)).| Protected with checks and pipeline permissions. Checks and pipeline permissions are controlled by secure files users. A resource owner can control which pipelines can access secure files. You can also use pipeline permissions to restrict access to particular YAML pipelines and all classic pipelines. |
-| [agent pools](../agents/agents.md) | There's a special syntax to use an agent pool to run a job. | Protected with checks and pipeline permissions. Checks and pipeline permissions are controlled by agent pool users. A resource owner can control which pipelines can access an agent pool. You can also use pipeline permissions to restrict access to particular YAML pipelines and all classic pipelines.  |
-| [environments](../process/environments.md)| There's a special syntax to use an environment in a YAML. | Protected with checks and pipeline permissions that are controlled by environment users. You can also use pipeline permissions to restrict access to a particular environment. |
-| [repositories](resources.md#define-a-repositories-resource)  | A script can clone a repository if the job access token has access to the repo.| Protected with checks and pipeline permissions controlled by repository contributors. A repository owner can restrict ownership.  |
-| [artifacts](../artifacts/artifacts-overview.md), work items, [pipelines](resources.md#define-a-pipelines-resource)  | [Pipeline artifacts](../artifacts/artifacts-overview.md) are resources, but [Azure Artifacts](../../artifacts/index.yml) aren't.  A script can download artifacts if the job access token has access to the feed. A pipeline artifact can be declared as a resource in the resources section – primarily for the intent of triggering the pipeline when a new artifact is available, or to consume that artifact in the pipeline. | Artifacts and work items have their own permissions controls. Checks and pipeline permissions for feeds aren't supported.|
-| [containers](resources.md#define-a-containers-resource), [packages](resources.md#define-a-packages-resource), [webhooks](resources.md#define-a-webhooks-resource) | These live outside the Azure DevOps ecosystem and access is controlled with service connections. There's a special syntax for using all three types in YAML pipelines.  | Protected with checks and pipeline permissions controlled by service connection users.  |
+ - Variable Groups
+ - Pipelines
+
+## Create a variable group
+
+Execute `create-variable-group.azcli`:
+
+```bash
+az pipelines variable-group create --name az400-variables --variables node-version=14x app-name=food-app --output yaml
+```
+
+Examine in Azure DevOps and use in pipeline `use-var-grp.yml`:
