@@ -18,6 +18,8 @@
 
 [Build and release tasks](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/?view=azure-devops)
 
+[Use predefined variables](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml)
+
 [Configure run or build numbers](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
 
 [Build and release retention policies](https://learn.microsoft.com/en-us/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml)
