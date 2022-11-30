@@ -5,10 +5,6 @@
 - Show Image creation .NET Core / Angular
 - Create and use Azure Container Registry (optional)
 - Azure Container Registry and Build Task (optional)
-- Deploy Angular UI to ACI (optional)
-- Create AKS Cluster and deploy manually (optional)
-- Build an image and deploy it to a Kubernetes cluster using Azure DevOps pipelines (optional)
-
 ## Readings
 
 [Build an image](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/build-image?view=azure-devops)
