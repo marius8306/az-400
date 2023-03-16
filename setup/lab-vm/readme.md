@@ -1,36 +1,55 @@
 # Create Lab VM - Optional
 
-- Execute `create-lab-vm.azcli` or run the following remote script in Cloud Shell
+Execute `create-lab-vm.azcli` or run the following remote script in Cloud Shell
 
-    ```bash
-    curl https://raw.githubusercontent.com/arambazamba/az-204/main/Setup/create-lab-vm.azcli | bash
-    ```
+```bash
+curl https://raw.githubusercontent.com/arambazamba/ng-adv/main/setup/lab-vm/create-lab-vm.azcli | bash
+```
 
-    ![create-labvm](_images/create-lab-vm.jpg)
+![create-labvm](_images/create-lab-vm.jpg)
 
-- Go to Ressource Group `az-lab` and connect to VM using RDP and the credentials that you have used in the script:
+`create-lab-vm.azcli`:
 
-- Download RDP File:
+```bash
+env=$RANDOM
+loc=westeurope
+grp=ng-adv
+vmname=ng-adv-$env
+user=labadmin
+pwd=Lab@dmin1234
 
-    ![download-rdp](_images/download-rdp.jpg)
+az group create -n $grp -l $loc
 
-- Optional - Disable Login Question:
+az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd \
+    --image MicrosoftWindowsDesktop:Windows-10:win10-22h2-pro-g2:latest \
+    --size Standard_E2s_v5 --public-ip-sku Standard
+```
 
-    ![disable-login](_images/disable-login.jpg)
+Connect to VM:
 
-- Trust the RDP Connection:
+Go to Ressource Group `az-lab` and connect to VM using RDP and the credentials that you have used in the script:
 
-    ![connect-rdp](_images/trust-vm.jpg)
+Download RDP File:
 
-    Credentials:
+![download-rdp](_images/download-rdp.jpg)
 
-    ```
-    user=azlabadmin
-    pwd=Lab@dmin1234
-    ```
+Optional - Disable Login:
 
-    ![sign-in.jpg](_images/sign-in.jpg)
+![disable-login](_images/disable-login.jpg)
 
-- Accept default settings:
+Sign In & Remember:
 
-    ![accept-settings](_images/accept-settings.jpg)
+![connect-rdp](_images/trust-vm.jpg)
+
+Credentials:
+
+```
+user=labadmin
+pwd=Lab@dmin1234
+```
+
+![sign-in.jpg](_images/sign-in.jpg)
+
+Accept Settings:
+
+![accept-settings](_images/accept-settings.jpg)
