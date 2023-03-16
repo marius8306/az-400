@@ -2,12 +2,12 @@
 
 - Install Software
 - [Install Windows Subsystem Linux - Optional](./windows-subsystem-linux/)
-- Setup local container support - Optional
-- Create Lab VM - Optional
+- [Setup local container support - Optional](./docker/)
+- [Create Lab VM - Optional](./lab-vm/)
 
 ## Install Software
 
->Note: Create Lab VM is an optional step that you could execute if you want to develop on azure hosted VM. If you want to develop on your local machine you can skip this step.
+>Note: Create Lab VM is an optional step that you could execute in advance if you want to develop on Azure hosted VM. If you want to develop on your local machine you can skip this step.
 
 To install Software run the script `setup-az-400.ps1` from an elevated PowerShell prompt:
 
