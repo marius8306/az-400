@@ -12,7 +12,7 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
   - Advanced Demos are using a cloud native app which is located in the [food-app](https://github.com/arambazamba/food-app) GitHub repository
 - [Guided Scripts to setup an Azure hosted Development & Lab VM](./setup)
   - [Base Dev Environment Setup inkluding Visual Studio Code Extensions](./setup/#basics)
-- [Labs](./labs)
+- [Labs](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/tree/master/Instructions/Labs)
 
 > Note: Labs are taken from the official repo [AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)
 
