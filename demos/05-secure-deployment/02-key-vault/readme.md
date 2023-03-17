@@ -16,7 +16,7 @@
 
     ![kv-vars](_images/kv-vars.jpg)
 
-Import pipeline spfx-build-deploy-kv.yml from [Food App](https://github.com/arambazamba/food-app/)
+Import pipeline spfx-build-deploy-kv.yml from [Food App](https://github.com/arambazamba/food-app/blob/master/deploy/az-pipelines/spfx-build-deploy-kv.yml)
 
 
 ## Additional Labs & Walkthroughs
