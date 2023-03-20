@@ -1,5 +1,6 @@
 # AZ-400: Designing and Implementing Microsoft DevOps Solutions
 TEst
+Test on AZ-400Marius
 Companion Material for Class Delivery by [Alexander Pajer](https://www.integrations.at/kontakt.aspx) containing:
 
 - [Getting Started](./tooling/00-getting-started)
