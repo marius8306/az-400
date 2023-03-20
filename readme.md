@@ -16,6 +16,8 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
 
 > Note: Labs are taken from the official repo [AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)
 
+This class uses the [food-app](https://github.com/arambazamba/food-app) GitHub repository as a sample application. 
+
 ## Exam
 
 [Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400)
